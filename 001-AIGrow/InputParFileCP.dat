@@ -18,14 +18,14 @@ startFragFile				startFrag.mol2
 # startSmiFrag     			C 
 
 # define the population
-numCycleGen             	6
+numCycleGen             	30
 selTopMols          		200
 selTopRootPercent           0.70
 selElitePercent		    	0.1
 maximumPOP              	3000
 
 # define read library way: mol2, SMILES, AIFrag
-libStyle                     AIFrag
+libStyle                     mol2
 genAIWay                     Fdafrag
 genAINumber                  120
 # obabelPath					 C:\Program Files (x86)\OpenBabel-2.4.1\obabel.exe
@@ -40,11 +40,11 @@ atomMutation            	off
 mutationPercent 			0.50
 
 # grow alogrithm
-randomCrossMutation       	on
+randomCrossMutation       	off
 randomCrossRatio	        0.50
 randomMutationRatio  	    0.50
 randomCrossCompareNum 		2
-randomCrossRange            3 4 5 6
+randomCrossRange            3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
 # value on or off
 writeResultParallel         on
 
