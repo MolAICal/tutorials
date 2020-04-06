@@ -9,3 +9,4 @@ ID   Name   Cluster   Affinity(kcal/mol)   Formula   InChIKey                   
 8     lig_8.mol2		[1]	  -7.36	  C22H22N7O5F      	VBLFGSXPQYUDHU-IOCOHYSWSA-N 	66.12
 9     lig_9.mol2		[1]	  -7.17	  C31H26N6O6F2     	JJLVKHIHNRBTRY-IISUXDFHSA-N 	52.55
 10    lig_10.mol2		[1]	  -7.19	  C27H28N3O5F      	NUZUZMZLWVKIMN-UUHNZTRQSA-N 	59.68
+11    lig_11.mol2       [2]   -15.75  C36H32N9O8F       NQRYZUVVCCHOIC-OQQNYJPCSA-N     45.17
