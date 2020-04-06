@@ -2,9 +2,9 @@ receptor = pro.pdbqt
 out = all.pdbqt
 
 cpu = 1
-center_x = -10.86
-center_y = 12.57
-center_z = 68.82
+center_x = -10.733
+center_y = 12.416
+center_z = 68.829
 
 size_x = 25
 size_y = 30
