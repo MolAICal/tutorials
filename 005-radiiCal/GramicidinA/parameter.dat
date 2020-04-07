@@ -1,0 +1,20 @@
+# radii calculation
+
+pdbpath    1JNO.pdb
+psfpath    1JNO.psf
+
+cpoint    0.1625 -0.629 -1.838
+
+vector    0.00 0.00 1.00
+sample    0.25
+# minprobe  0.259    
+conpar    0.15
+endrad    5.0
+selatoms  5.1
+numpt     300
+surColor  blue
+lineColor red
+
+lineWidth 2
+searchNum 2000
+material  Glass2
