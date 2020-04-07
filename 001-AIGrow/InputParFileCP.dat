@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This parameter file is for parameter reading.
 
 # define the grow box.
@@ -82,3 +83,89 @@ selBindingScore				-3
 # define cpu and memory
 coreNum 					3
 
+=======
+# This parameter file is for parameter reading.
+
+# define the grow box.
+centerPoints     			-30.011  1.665  -36.581 
+boxLengthXYZ     			30.0 30.0 30.0
+receptorPDB      			GCGRNoLigand.pdb
+
+
+# define the frag grow way.
+# 1. first way for grow: fixFrag and randomFrag
+growMethod       			fixFrag
+startFragFile				startFrag.mol2
+
+# 2. second way for grow.
+# growMethod       			randomFrag
+# startFragFile    			D:/workdir/MolAICal/example/grow/OX2Orexin/startFrag.mol2
+# startAtomPosition    		D:/workdir/MolAICal/example/grow/OX2Orexin/resFrag.mol2
+# startSmiFrag     			C 
+
+# define the population
+numCycleGen             	30
+selTopMols          		200
+selTopRootPercent           0.70
+selElitePercent		    	0.1
+maximumPOP              	3000
+
+# define read library way: mol2, SMILES, AIFrag
+libStyle                     mol2
+genAIWay                     Fdafrag
+genAINumber                  120
+# obabelPath					 C:\Program Files (x86)\OpenBabel-2.4.1\obabel.exe
+# Search the conformation algorithm
+# Tow methods: "random" and "fibonacci"
+perturbeSearch              on
+genAlgorithm            	fibonacci
+ranGenOptNum           	 	361
+
+# define mutation way
+atomMutation            	off
+mutationPercent 			0.50
+
+# grow alogrithm
+randomCrossMutation       	off
+randomCrossRatio	        0.50
+randomMutationRatio  	    0.50
+randomCrossCompareNum 		2
+randomCrossRange            3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+# value on or off
+writeResultParallel         on
+
+# filter molecule. Value is on or off.
+unwantedFrag      			on
+PAINS                       on
+growFilter					on
+growFilterRatio				0.50
+##default is 0.56
+resultsFilterRatio          0.50
+
+# rules of five
+RulesOfFive 				on
+xlogPvalue 					6.0
+acceptors					12
+donors						6
+mwvalue						1000.0
+rotatablebonds				14
+
+# SA
+syntheticAccessibility        off
+synAccessibilityValue         50   
+
+MolsimilarPercent 			0.90
+
+# define output results
+# pcClusterdFile               D:/workdir/MolAICal/example/grow/PC.dat
+pcClusterNumber               1
+adjustOutSimPer				0.999999
+# moloutputdir            	D:/workdir/MolAICal/example/grow/OX2Orexin/results
+selMolMaxWeight 		    1000
+selMolMinWeight      		100
+selBindingScore				-3
+
+# define cpu and memory
+coreNum 					3
+
+>>>>>>> b324c4f97ef023ee8e3986e10bbafe94fb68fd6c
