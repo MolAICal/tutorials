@@ -1,0 +1,51 @@
+## usage:
+# vmd -dispdev text -psf "MTH1ion.psf" -e strip.vmd -args protein,or,resname,8XT "mth_eq.dcd"  "complex" MTH1ion.psf MTH1ion.pdb
+# arg 1: atomselect part such as "atomselect top protein", here, "," represents " "
+# arg 2: path of dcd file
+# arg 3: new dcd name
+# arg 4: psf file
+# arg 5: pdb file
+
+package require psfgen
+
+# modify as below
+
+# set notwat [atomselect top {protein or (chain B and segname BB1 BB2)} ] 
+set sel0 [lindex $argv 0]
+# convert , to " "
+set selwat [string map {, " "} $sel0]
+
+set notwat [atomselect top $selwat ] 
+# set dcd name
+set dcdsel [lindex $argv 1]
+## set extracted name
+set cusname [lindex $argv 2]
+
+if { [file exists $cusname.dcd] == 1} { 
+   file delete -force $cusname.dcd
+}
+
+foreach i $dcdsel {
+ mol addfile $i type {dcd} first 0 last -1 step 1 waitfor all top        
+ set num [molinfo top get numframes] 
+ incr num -1 
+ set out [string map {.dcd .extract.dcd} $i] 
+ animate write dcd $out beg 0 end $num skip 1 waitfor all sel $notwat top 
+ animate delete all 
+} 
+
+file rename $out $cusname.dcd
+
+# save file
+set psffile [lindex $argv 3]
+set pdbfile [lindex $argv 4]
+
+mol load psf $psffile pdb $pdbfile
+
+# modify as above 
+set notwat [atomselect top $selwat ]
+$notwat writepsf $cusname.psf
+$notwat writepdb $cusname.pdb
+mol delete all
+
+exit
