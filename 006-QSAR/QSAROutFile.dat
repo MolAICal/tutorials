@@ -1,0 +1,442 @@
+
+****** The 1th model ******
+The Q^2-LOO is: 0.8542
+R^2 fitting is: 0.9473
+R^2 adjusted is: 0.9210
+RSS is: 0.4042
+The formula is: y = 0.68376 + (1.12498) * H0p + (2.45137) * Mor26e + (0.79399) * ESpm06d
+The standard errors of b0 to b3 corresponding to formula is: 1.83351, 2.17332, 0.25011, 0.23398
+The standard error of the regression (sigma) is: 0.2595
+The experiment values, predicted values, calculated values by LOO validation and residuals: 
+8.0      8.1138      8.1743      -0.1138
+7.12      7.2904      7.4440      -0.1704
+8.43      8.5246      8.5705      -0.0946
+7.96      7.7950      7.6441      0.1650
+8.46      8.7477      8.8000      -0.2877
+10.44      10.5084      10.7288      -0.0684
+8.01      7.8877      7.8584      0.1223
+7.8      7.9168      8.3305      -0.1168
+8.96      8.5185      8.3828      0.4415
+9.24      9.1171      9.0764      0.1229
+The PRESS is: 1.1183
+The SDEC is: 0.2010
+The SDEP is: 0.3344
+The Leverage and standardized residuals: 
+0.3472      -0.5368
+0.4742      -0.8039
+0.3270      -0.4463
+0.4777      0.7785
+0.1537      -1.3578
+0.7632      -0.3227
+0.1934      0.5769
+0.7799      -0.5510
+0.2352      2.0832
+0.2486      0.5799
+
+****** The 2th model ******
+The Q^2-LOO is: 0.8676
+R^2 fitting is: 0.9450
+R^2 adjusted is: 0.9175
+RSS is: 0.4222
+The formula is: y = 1.25307 + (-0.00001) * CSI + (2.48352) * Mor26e + (0.88638) * ESpm06d
+The standard errors of b0 to b3 corresponding to formula is: 1.81256, 0.00040, 0.28622, 0.21878
+The standard error of the regression (sigma) is: 0.2653
+The experiment values, predicted values, calculated values by LOO validation and residuals: 
+8.0      8.1766      8.2027      -0.1766
+7.12      7.2730      7.4127      -0.1530
+8.43      8.5881      8.6737      -0.1581
+7.96      7.7859      7.6269      0.1741
+8.46      8.7718      8.8616      -0.3118
+10.44      10.4785      10.5809      -0.0385
+8.01      7.8653      7.7808      0.1447
+7.8      7.8473      7.9061      -0.0473
+8.96      8.5545      8.3136      0.4055
+9.24      9.0790      9.0035      0.1610
+The PRESS is: 1.0158
+The SDEC is: 0.2055
+The SDEP is: 0.3187
+The Leverage and standardized residuals: 
+0.1289      -0.8154
+0.4771      -0.7066
+0.3513      -0.7301
+0.4773      0.8039
+0.2235      -1.4398
+0.7269      -0.1777
+0.3685      0.6683
+0.5548      -0.2182
+0.3727      1.8721
+0.3190      0.7435
+
+****** The 3th model ******
+The Q^2-LOO is: 0.8877
+R^2 fitting is: 0.9461
+R^2 adjusted is: 0.9191
+RSS is: 0.4137
+The formula is: y = 1.20610 + (0.69094) * HATS6v + (2.46477) * Mor26e + (0.88111) * ESpm06d
+The standard errors of b0 to b3 corresponding to formula is: 1.45774, 1.96365, 0.25138, 0.16132
+The standard error of the regression (sigma) is: 0.2626
+The experiment values, predicted values, calculated values by LOO validation and residuals: 
+8.0      8.1415      8.1947      -0.1415
+7.12      7.2510      7.3935      -0.1310
+8.43      8.6318      8.7571      -0.2018
+7.96      7.7937      7.6403      0.1663
+8.46      8.7601      8.8082      -0.3001
+10.44      10.4673      10.5419      -0.0273
+8.01      7.9120      7.8323      0.0980
+7.8      7.8348      7.8762      -0.0348
+8.96      8.5276      8.3786      0.4324
+9.24      9.1002      9.0600      0.1398
+The PRESS is: 0.8614
+The SDEC is: 0.2034
+The SDEP is: 0.2935
+The Leverage and standardized residuals: 
+0.2733      -0.6600
+0.5210      -0.6109
+0.3831      -0.9413
+0.4800      0.7755
+0.1380      -1.3999
+0.7327      -0.1271
+0.4487      0.4569
+0.5437      -0.1622
+0.2563      2.0168
+0.2232      0.6522
+
+****** The 4th model ******
+The Q^2-LOO is: 0.9121
+R^2 fitting is: 0.9670
+R^2 adjusted is: 0.9505
+RSS is: 0.2530
+The formula is: y = 2.57531 + (0.03566) * T(O..S) + (2.56124) * Mor26e + (0.73590) * ESpm06d
+The standard errors of b0 to b3 corresponding to formula is: 1.30002, 0.01780, 0.19368, 0.14585
+The standard error of the regression (sigma) is: 0.2054
+The experiment values, predicted values, calculated values by LOO validation and residuals: 
+8.0      8.0486      8.0626      -0.0486
+7.12      7.2987      7.4526      -0.1787
+8.43      8.4580      8.4659      -0.0280
+7.96      7.8692      7.7731      0.0908
+8.46      8.7005      8.7420      -0.2405
+10.44      10.5082      10.6846      -0.0682
+8.01      7.7345      7.6410      0.2755
+7.8      7.9149      8.0541      -0.1149
+8.96      8.8716      8.6297      0.0884
+9.24      9.0158      8.9674      0.2242
+The PRESS is: 0.6743
+The SDEC is: 0.1591
+The SDEP is: 0.2597
+The Leverage and standardized residuals: 
+0.2231      -0.2901
+0.4629      -1.0656
+0.2206      -0.1668
+0.5141      0.5417
+0.1472      -1.4344
+0.7210      -0.4070
+0.2534      1.6433
+0.5477      -0.6854
+0.7324      0.5272
+0.1777      1.3371
+
+****** The 5th model ******
+The Q^2-LOO is: 0.9282
+R^2 fitting is: 0.9665
+R^2 adjusted is: 0.9497
+RSS is: 0.2572
+The formula is: y = 3.55366 + (0.04301) * T(O..S) + (2.53144) * Mor26e + (0.73941) * ESpm05d
+The standard errors of b0 to b3 corresponding to formula is: 1.11787, 0.01726, 0.19354, 0.14803
+The standard error of the regression (sigma) is: 0.2070
+The experiment values, predicted values, calculated values by LOO validation and residuals: 
+8.0      8.0854      8.1122      -0.0854
+7.12      7.2909      7.4437      -0.1709
+8.43      8.4367      8.4385      -0.0067
+7.96      7.8570      7.7405      0.1030
+8.46      8.7404      8.7938      -0.2804
+10.44      10.4784      10.5734      -0.0384
+8.01      7.7364      7.6433      0.2736
+7.8      7.8647      7.9361      -0.0647
+8.96      8.9102      8.7830      0.0498
+9.24      9.0199      8.9719      0.2201
+The PRESS is: 0.5510
+The SDEC is: 0.1604
+The SDEP is: 0.2347
+The Leverage and standardized residuals: 
+0.2391      -0.5051
+0.4720      -1.0111
+0.2095      -0.0397
+0.5305      0.6096
+0.1599      -1.6587
+0.7126      -0.2269
+0.2540      1.6183
+0.5247      -0.3828
+0.7187      0.2944
+0.1791      1.3019
+
+****** The 6th model ******
+The Q^2-LOO is: 0.9596
+R^2 fitting is: 0.9863
+R^2 adjusted is: 0.9794
+RSS is: 0.1054
+The formula is: y = -3.20064 + (5.77752) * Mor26p + (4.59489) * BEHm6 + (-0.08085) * piPC04
+The standard errors of b0 to b3 corresponding to formula is: 1.15399, 0.29427, 0.33943, 0.10476
+The standard error of the regression (sigma) is: 0.1325
+The experiment values, predicted values, calculated values by LOO validation and residuals: 
+8.0      7.9943      7.9927      0.0057
+7.12      7.0726      7.0082      0.0474
+8.43      8.2314      8.0696      0.1986
+7.96      7.9976      8.0205      -0.0376
+8.46      8.6279      8.6488      -0.1679
+10.44      10.3855      10.2847      0.0545
+8.01      8.1751      8.3125      -0.1651
+7.8      7.7459      7.6983      0.0541
+8.96      8.9753      8.9851      -0.0153
+9.24      9.2144      9.2034      0.0256
+The PRESS is: 0.3097
+The SDEC is: 0.1026
+The SDEP is: 0.1760
+The Leverage and standardized residuals: 
+0.2238      0.0527
+0.5757      0.4384
+0.4489      1.8355
+0.3791      -0.3471
+0.1106      -1.5519
+0.6492      0.5035
+0.4543      -1.5258
+0.4680      0.5000
+0.3897      -0.1415
+0.3007      0.2362
+
+****** The 7th model ******
+The Q^2-LOO is: 0.9604
+R^2 fitting is: 0.9864
+R^2 adjusted is: 0.9796
+RSS is: 0.1042
+The formula is: y = -2.67487 + (5.80731) * Mor26p + (4.70941) * BEHm6 + (-0.11203) * ESpm07x
+The standard errors of b0 to b3 corresponding to formula is: 1.56771, 0.28823, 0.35934, 0.13716
+The standard error of the regression (sigma) is: 0.1318
+The experiment values, predicted values, calculated values by LOO validation and residuals: 
+8.0      8.0005      8.0007      -0.0005
+7.12      7.0782      7.0162      0.0418
+8.43      8.2250      8.0323      0.2050
+7.96      7.9916      8.0120      -0.0316
+8.46      8.6131      8.6323      -0.1531
+10.44      10.3901      10.2969      0.0499
+8.01      8.1833      8.2747      -0.1733
+7.8      7.7457      7.6986      0.0543
+8.96      8.9732      8.9813      -0.0132
+9.24      9.2194      9.2097      0.0206
+The PRESS is: 0.3035
+The SDEC is: 0.1021
+The SDEP is: 0.1742
+The Leverage and standardized residuals: 
+0.2505      -0.0048
+0.5971      0.3885
+0.4847      1.9044
+0.3932      -0.2932
+0.1118      -1.4224
+0.6511      0.4638
+0.3455      -1.6098
+0.4644      0.5048
+0.3805      -0.1224
+0.3212      0.1911
+
+****** The 8th model ******
+The Q^2-LOO is: 0.9801
+R^2 fitting is: 0.9919
+R^2 adjusted is: 0.9878
+RSS is: 0.0622
+The formula is: y = -3.88131 + (6.34121) * Mor26v + (4.67272) * BEHm6 + (0.01877) * X3
+The standard errors of b0 to b3 corresponding to formula is: 0.78170, 0.24907, 0.29559, 0.01858
+The standard error of the regression (sigma) is: 0.1018
+The experiment values, predicted values, calculated values by LOO validation and residuals: 
+8.0      8.0013      8.0017      -0.0013
+7.12      7.0553      6.9622      0.0647
+8.43      8.3507      8.2882      0.0793
+7.96      8.0875      8.1569      -0.1275
+8.46      8.3227      8.2995      0.1373
+10.44      10.4449      10.4553      -0.0049
+8.01      8.1233      8.1860      -0.1133
+7.8      7.8551      7.8968      -0.0551
+8.96      8.9350      8.9072      0.0250
+9.24      9.2442      9.2460      -0.0042
+The PRESS is: 0.1530
+The SDEC is: 0.0788
+The SDEP is: 0.1237
+The Leverage and standardized residuals: 
+0.1861      -0.0162
+0.5899      0.7787
+0.4406      0.9547
+0.3522      -1.5348
+0.1445      1.6526
+0.6792      -0.0590
+0.3562      -1.3635
+0.4310      -0.6628
+0.5265      0.3010
+0.2937      -0.0508
+
+****** The 9th model ******
+The Q^2-LOO is: 0.9818
+R^2 fitting is: 0.9908
+R^2 adjusted is: 0.9862
+RSS is: 0.0705
+The formula is: y = -4.77143 + (6.37039) * Mor26v + (4.84396) * BEHm6 + (0.32561) * BELe2
+The standard errors of b0 to b3 corresponding to formula is: 1.74627, 0.34167, 0.29806, 0.73933
+The standard error of the regression (sigma) is: 0.1084
+The experiment values, predicted values, calculated values by LOO validation and residuals: 
+8.0      7.9909      7.9759      0.0091
+7.12      7.0848      7.0501      0.0352
+8.43      8.3117      8.2630      0.1183
+7.96      8.0996      8.1798      -0.1396
+8.46      8.3037      8.2848      0.1563
+10.44      10.4375      10.4323      0.0025
+8.01      8.0949      8.1333      -0.0849
+7.8      7.8567      7.9002      -0.0567
+8.96      8.9820      8.9952      -0.0220
+9.24      9.2581      9.2666      -0.0181
+The PRESS is: 0.1396
+The SDEC is: 0.0839
+The SDEP is: 0.1182
+The Leverage and standardized residuals: 
+0.6239      0.1025
+0.4970      0.3973
+0.2919      1.3365
+0.3649      -1.5777
+0.1082      1.7665
+0.6725      0.0284
+0.3111      -0.9597
+0.4342      -0.6407
+0.3758      -0.2485
+0.3204      -0.2047
+
+****** The 10th model ******
+The Q^2-LOO is: 0.9840
+R^2 fitting is: 0.9913
+R^2 adjusted is: 0.9870
+RSS is: 0.0665
+The formula is: y = -4.25428 + (6.29847) * Mor26v + (4.86398) * BEHm6 + (-0.06569) * nArNR2
+The standard errors of b0 to b3 corresponding to formula is: 0.81136, 0.25007, 0.28704, 0.08790
+The standard error of the regression (sigma) is: 0.1053
+The experiment values, predicted values, calculated values by LOO validation and residuals: 
+8.0      8.0395      8.0478      -0.0395
+7.12      7.0870      7.0546      0.0330
+8.43      8.3054      8.2853      0.1246
+7.96      8.0934      8.1648      -0.1334
+8.46      8.3139      8.2926      0.1461
+10.44      10.4472      10.4635      -0.0072
+8.01      8.0904      8.1073      -0.0804
+7.8      7.8204      7.8649      -0.0204
+8.96      9.0032      9.0427      -0.0432
+9.24      9.2196      9.1751      0.0204
+The PRESS is: 0.1227
+The SDEC is: 0.0816
+The SDEP is: 0.1108
+The Leverage and standardized residuals: 
+0.1740      -0.4594
+0.4951      0.3840
+0.1384      1.4496
+0.3488      -1.5514
+0.1272      1.6990
+0.6931      -0.0838
+0.1733      -0.9356
+0.6864      -0.2367
+0.4774      -0.5024
+0.6864      0.2367
+
+****** The 11th model ******
+The Q^2-LOO is: 0.9845
+R^2 fitting is: 0.9939
+R^2 adjusted is: 0.9908
+RSS is: 0.0468
+The formula is: y = -3.12215 + (6.32808) * Mor26v + (4.48520) * BEHm6 + (0.12253) * EEig15d
+The standard errors of b0 to b3 corresponding to formula is: 0.84237, 0.20973, 0.28927, 0.06722
+The standard error of the regression (sigma) is: 0.0883
+The experiment values, predicted values, calculated values by LOO validation and residuals: 
+8.0      8.0659      8.0827      -0.0659
+7.12      7.0424      6.9387      0.0776
+8.43      8.3659      8.3355      0.0641
+7.96      8.0510      8.1166      -0.0910
+8.46      8.3665      8.3330      0.0935
+10.44      10.4452      10.4560      -0.0052
+8.01      8.1269      8.1635      -0.1169
+7.8      7.8075      7.8161      -0.0075
+8.96      8.9236      8.8912      0.0364
+9.24      9.2252      9.2188      0.0148
+The PRESS is: 0.1185
+The SDEC is: 0.0684
+The SDEP is: 0.1089
+The Leverage and standardized residuals: 
+0.2034      -0.9138
+0.5718      1.0766
+0.3211      0.8893
+0.4185      -1.2622
+0.2633      1.2971
+0.6744      -0.0722
+0.2384      -1.6207
+0.5362      -0.1037
+0.4712      0.5047
+0.3017      0.2050
+
+****** The 12th model ******
+The Q^2-LOO is: 0.9861
+R^2 fitting is: 0.9947
+R^2 adjusted is: 0.9920
+RSS is: 0.0409
+The formula is: y = -2.08612 + (6.69847) * Mor26v + (4.47722) * BEHm6 + (-9.95813) * HATS1p
+The standard errors of b0 to b3 corresponding to formula is: 1.11140, 0.27748, 0.26339, 4.61311
+The standard error of the regression (sigma) is: 0.0826
+The experiment values, predicted values, calculated values by LOO validation and residuals: 
+8.0      8.0620      8.0757      -0.0620
+7.12      7.0745      7.0289      0.0455
+8.43      8.3353      8.3163      0.0947
+7.96      8.0803      8.1463      -0.1203
+8.46      8.4035      8.3616      0.0565
+10.44      10.4518      10.4767      -0.0118
+8.01      8.0337      8.0391      -0.0237
+7.8      7.7987      7.7971      0.0013
+8.96      9.0114      9.0459      -0.0514
+9.24      9.1690      9.0798      0.0710
+The PRESS is: 0.1066
+The SDEC is: 0.0640
+The SDEP is: 0.1032
+The Leverage and standardized residuals: 
+0.1812      -0.9187
+0.5000      0.6753
+0.1670      1.4047
+0.3544      -1.7833
+0.4257      0.8378
+0.6791      -0.1745
+0.1870      -0.3514
+0.5480      0.0195
+0.4012      -0.7626
+0.5566      1.0530
+
+****** The 13th model ******
+The Q^2-LOO is: 0.9940
+R^2 fitting is: 0.9967
+R^2 adjusted is: 0.9951
+RSS is: 0.0252
+The formula is: y = -4.44694 + (6.48560) * Mor26v + (4.18199) * BEHm6 + (0.85416) * BEHm8
+The standard errors of b0 to b3 corresponding to formula is: 0.49180, 0.16499, 0.25041, 0.25377
+The standard error of the regression (sigma) is: 0.0648
+The experiment values, predicted values, calculated values by LOO validation and residuals: 
+8.0      8.0022      8.0025      -0.0022
+7.12      7.1067      7.0932      0.0133
+8.43      8.3572      8.3392      0.0728
+7.96      7.9671      7.9825      -0.0071
+8.46      8.4217      8.3957      0.0383
+10.44      10.4353      10.4257      0.0047
+8.01      8.1410      8.1792      -0.1310
+7.8      7.7761      7.7433      0.0239
+8.96      8.9533      8.9494      0.0067
+9.24      9.2594      9.2647      -0.0194
+The PRESS is: 0.0464
+The SDEC is: 0.0502
+The SDEP is: 0.0681
+The Leverage and standardized residuals: 
+0.1467      -0.0409
+0.5033      0.2513
+0.1975      1.3769
+0.6850      -0.1342
+0.4044      0.7238
+0.6707      0.0890
+0.2259      -2.4766
+0.5778      0.4526
+0.3743      0.1258
+0.2144      -0.3676
