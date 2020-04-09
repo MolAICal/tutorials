@@ -1,0 +1,11 @@
+# 1th:  molecule name
+# 2th:  Greater than 0 means: cannot pass rule of five; Equal to 0 means: pass rule of five
+# 3th:  xlogP value
+# 4th:  hydrogen bond acceptors
+# 5th:  hydrogen bond donors
+# 6th:  molecular mass
+# 7th:  rotatable bonds number
+
+test.mol2                    	1   	4.245000   	5   	4   	522.217501   	9
+zinc_1879871.mol2            	2   	7.296000   	6   	1   	588.127322   	5
+zinc_9237880.mol2            	0   	3.118000   	1   	1   	336.147393   	6
