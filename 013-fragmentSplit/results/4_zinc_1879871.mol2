@@ -1,0 +1,21 @@
+#        Name: CDKMolecule
+
+@<TRIPOS>MOLECULE
+CDKMolecule
+6 6
+SMALL
+NO CHARGES
+@<TRIPOS>ATOM
+1 C1 -0.0156 -3.2383 1.4886 C.ar
+2 C2 0.6657 -3.1924 2.6979 C.ar
+3 C3 0.6773 -4.2987 3.5247 C.ar
+4 C4 0.0214 -5.455 3.144 C.ar
+5 C5 -0.6532 -5.5058 1.9379 C.ar
+6 C6 -0.6737 -4.4009 1.1095 C.ar
+@<TRIPOS>BOND
+1 1 2 ar
+2 3 2 ar
+3 4 3 ar
+4 5 4 ar
+5 6 5 ar
+6 1 6 ar
