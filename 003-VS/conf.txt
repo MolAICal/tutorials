@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 receptor = pro.pdbqt
 out = all.pdbqt
 
@@ -12,18 +11,3 @@ size_y = 30
 size_z = 25
 
 num_modes = 1
-=======
-receptor = pro.pdbqt
-out = all.pdbqt
-
-cpu = 1
-center_x = -10.733
-center_y = 12.416
-center_z = 68.829
-
-size_x = 25
-size_y = 30
-size_z = 25
-
-num_modes = 1
->>>>>>> b324c4f97ef023ee8e3986e10bbafe94fb68fd6c
