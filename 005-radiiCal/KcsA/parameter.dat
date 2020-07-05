@@ -6,7 +6,7 @@ cpoint    0.001   0.006  1.927
 vector    0.00 0.00 1.00
 sample    0.25
 minprobe  0.259    
-conpar    0.15
+conpar    0.04
 endrad    5.0
 selatoms  5.1
 numpt     300
