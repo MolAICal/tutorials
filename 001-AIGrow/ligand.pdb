@@ -929,7 +929,6 @@ ORIGX3      0.000000  0.000000  1.000000        0.00000
 SCALE1      0.026608  0.000000  0.000000        0.00000                         
 SCALE2      0.000000  0.013991  0.000000        0.00000                         
 SCALE3      0.000000  0.000000  0.005461        0.00000                         
-<<<<<<< HEAD
 HETATM    1  N1  5MV A1201     -32.082   1.694 -39.704  1.00 30.54           N
 HETATM    2  N3  5MV A1201     -27.299   5.977 -34.706  1.00 33.62           N
 HETATM    3  C4  5MV A1201     -37.051   1.811 -41.030  1.00 45.65           C
@@ -997,38 +996,38 @@ HETATM   64 H273 5MV A1201     -26.552  -2.313 -32.004  1.00  0.00           H
 HETATM   65 H321 5MV A1201     -28.543   2.571 -40.724  1.00  0.00           H
 HETATM   66 H322 5MV A1201     -30.171   3.275 -40.582  1.00  0.00           H
 HETATM   67 H323 5MV A1201     -29.963   1.644 -41.263  1.00  0.00           H
-CONECT   18   19    5    6
-CONECT    8   46   24   10
-CONECT   24   52   25    8
+CONECT   18    6   19    5
+CONECT    8   10   24   46
+CONECT   24    8   25   52
 CONECT   25   23   24    9
-CONECT    9   47   25   26
-CONECT   26   29    9   10
-CONECT   10   26   27    8
-CONECT   27   53   10   11
-CONECT   11   27   28   32
-CONECT   28   54   29   11
-CONECT   29   55   26   28
-CONECT   19   51   18   20
-CONECT   12   40   48   31   15
-CONECT   13   17   14   16
-CONECT   14   49   41   13
-CONECT   41   61   14   15
-CONECT   15   41   30   12
-CONECT   30   56   15   16
-CONECT   16   50   30   13
-CONECT   33   62   63   64   32
+CONECT    9   25   26   47
+CONECT   26   10   29    9
+CONECT   10    8   26   27
+CONECT   27   10   11   53
+CONECT   11   28   32   27
+CONECT   28   29   11   54
+CONECT   29   28   26   55
+CONECT   19   20   18   51
+CONECT   12   15   40   31   48
+CONECT   13   14   17   16
+CONECT   14   41   13   49
+CONECT   41   14   15   61
+CONECT   15   30   41   12
+CONECT   30   15   16   56
+CONECT   16   30   13   50
+CONECT   33   32   64   62   63
 CONECT   17   34    2   13
-CONECT   35   57   58   36    2
-CONECT   20   19   21    3
-CONECT   36   59   60   35   37
-CONECT   37   36   38   39
-CONECT   40   65   66   67   12
-CONECT    3   43   20    4
+CONECT   35   36    2   58   57
+CONECT   20   21    3   19
+CONECT   36   37   35   60   59
+CONECT   37   36   39   38
+CONECT   40   12   66   67   65
+CONECT    3   20    4   43
 CONECT    4   22    3    5
-CONECT    5   44   18    4
-CONECT    6   18    1    7
-CONECT    7   45   23    6
-CONECT   23   25   31    7
+CONECT    5    4   18   44
+CONECT    6    7    1   18
+CONECT    7   23    6   45
+CONECT   23    7   25   31
 CONECT   21   20
 CONECT   22    4
 CONECT   46    8
@@ -1057,9 +1056,9 @@ CONECT   67   40
 CONECT   43    3
 CONECT   44    5
 CONECT   45    7
-CONECT    1   31    6
-CONECT   31   23    1   12
-CONECT    2   35   42   17
+CONECT    1    6   31
+CONECT   31   23   12    1
+CONECT    2   17   35   42
 CONECT   32   33   11
 CONECT   34   17
 CONECT   38   37
