@@ -14,7 +14,7 @@ startFragFile				startFrag.mol2
 # 2. second way for grow.
 # growMethod       			randomFrag
 # startFragFile    			D:/workdir/MolAICal/example/grow/OX2Orexin/startFrag.mol2
-# startAtomPosition    		D:/workdir/MolAICal/example/grow/OX2Orexin/resFrag.mol2
+# startAtomPosition    		D:/workdir/MolAICal/example/grow/OX2Orexin/resPosition.pdb
 # startSmiFrag     			C 
 
 # define the population
