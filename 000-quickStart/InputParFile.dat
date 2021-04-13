@@ -58,9 +58,9 @@ writeResultParallel         on
 unwantedFrag      			on
 PAINS                       on
 growFilter					on
-growFilterRatio				0.50
+growFilterRatio				0.56
 ##default is 0.56
-resultsFilterRatio          0.50
+resultsFilterRatio          0.56
 
 # rules of five
 RulesOfFive 				on
