@@ -1,0 +1,408 @@
+Charm++: standalone mode (not using charmrun)
+Charm++> Running in Multicore mode: 3 threads (PEs)
+Charm++> Using recursive bisection (scheme 3) for topology aware partitions
+Charm++ warning> fences and atomic operations not available in native assembly
+Converse/Charm++ Commit ID: v6.10.2-0-g7bf00fa-namd-charm-6.10.2-build-2020-Aug-05-556
+Charm++> Disabling isomalloc because mmap() does not work.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 hosts (1 sockets x 6 cores x 2 PUs = 12-way SMP)
+Charm++> cpu topology info is gathered in 0.007 seconds.
+Info: NAMD 2.14 for Win64-multicore
+Info: 
+Info: Please visit http://www.ks.uiuc.edu/Research/namd/
+Info: for updates, documentation, and support information.
+Info: 
+Info: Please cite Phillips et al., J. Chem. Phys. 153:044130 (2020) doi:10.1063/5.0014475
+Info: in all publications reporting results obtained with NAMD.
+Info: 
+Info: Based on Charm++/Converse 61002 for multicore-win64
+Info: Built Wed, Aug 05, 2020 1:08:15 PM by jim on europa
+Info: Running on 3 processors, 1 nodes, 1 physical nodes.
+Info: CPU topology information available.
+Info: Charm++/Converse parallel runtime startup completed at 0.00899982 s
+CkLoopLib is used in SMP with simple dynamic scheduling (converse-level notification)
+Info: 3.04688 MB of memory in use based on GetProcessMemoryInfo
+Info: Configuration file is res-lig.conf
+Info: Working in the current directory E:\workdir\MolAICal\tutorial\tutorial\004-MMGBSA\Decompose
+TCL: Suspending until startup complete.
+Info: SIMULATION PARAMETERS:
+Info: TIMESTEP               1
+Info: NUMBER OF STEPS        0
+Info: STEPS PER CYCLE        20
+Info: LOAD BALANCER  Centralized
+Info: LOAD BALANCING STRATEGY  New Load Balancers -- DEFAULT
+Info: LDB PERIOD             4000 steps
+Info: FIRST LDB TIMESTEP     100
+Info: LAST LDB TIMESTEP     -1
+Info: LDB BACKGROUND SCALING 1
+Info: HOM BACKGROUND SCALING 1
+Info: MIN ATOMS PER PATCH    40
+Info: INITIAL TEMPERATURE    310
+Info: CENTER OF MASS MOVING INITIALLY? NO
+Info: DIELECTRIC             1
+Info: EXCLUDE                SCALED ONE-FOUR
+Info: 1-4 ELECTROSTATICS SCALED BY 1
+Info: MODIFIED 1-4 VDW PARAMETERS WILL BE USED
+Info: NO DCD TRAJECTORY OUTPUT
+Info: NO EXTENDED SYSTEM TRAJECTORY OUTPUT
+Info: NO VELOCITY DCD OUTPUT
+Info: NO FORCE DCD OUTPUT
+Info: OUTPUT FILENAME        res-lig
+Info: BINARY OUTPUT FILES WILL BE USED
+Info: NO RESTART FILE
+Info: SWITCHING ACTIVE
+Info: SWITCHING ON           15
+Info: SWITCHING OFF          16
+Info: PAIRLIST DISTANCE      18
+Info: PAIRLIST SHRINK RATE   0.01
+Info: PAIRLIST GROW RATE     0.01
+Info: PAIRLIST TRIGGER       0.3
+Info: PAIRLISTS PER CYCLE    2
+Info: PAIRLISTS ENABLED
+Info: MARGIN                 0
+Info: HYDROGEN GROUP CUTOFF  2.5
+Info: PATCH DIMENSION        20.5
+Info: CROSSTERM ENERGY INCLUDED IN DIHEDRAL
+Info: TIMING OUTPUT STEPS    100
+Info: GBIS GENERALIZED BORN IMPLICIT SOLVENT ACTIVE
+Info: GBIS SOLVENT DIELECTRIC: 78.5
+Info: GBIS PROTEIN DIELECTRIC: 1
+Info: GBIS COULOMB RADIUS OFFSET: 0.09 Ang
+Info: GBIS ION CONCENTRATION: 0.3 M
+Info: GBIS DEBYE SCREENING LENGTH: 5.66311 Ang
+Info: GBIS DELTA: 1
+Info: GBIS BETA: 0.8
+Info: GBIS GAMMA: 4.85
+Info: GBIS BORN RADIUS CUTOFF: 15 Ang
+Info: GBIS MAX BORN RADIUS: 30 Ang
+Info: SASA SURFACE TENSION: 0.0072 kcal/mol/Ang^2
+Info: LANGEVIN DYNAMICS ACTIVE
+Info: LANGEVIN TEMPERATURE   310
+Info: LANGEVIN USING BBK INTEGRATOR
+Info: LANGEVIN DAMPING COEFFICIENT IS 1 INVERSE PS
+Info: LANGEVIN DYNAMICS APPLIED TO HYDROGENS
+Info: FULL ELECTROSTATIC EVALUATION FREQUENCY      4
+Info: USING VERLET I (r-RESPA) MTS SCHEME.
+Info: C1 SPLITTING OF LONG RANGE ELECTROSTATICS
+Info: PLACING ATOMS IN PATCHES BY HYDROGEN GROUPS
+Info: RIGID BONDS TO HYDROGEN : ALL
+Info:         ERROR TOLERANCE : 1e-08
+Info:          MAX ITERATIONS : 100
+Info: RIGID WATER USING SETTLE ALGORITHM
+Info: NONBONDED FORCES EVALUATED EVERY 2 STEPS
+Info: RANDOM NUMBER SEED     1618490639
+Info: USE HYDROGEN BONDS?    NO
+Info: COORDINATE PDB         res-lig.pdb
+Info: STRUCTURE FILE         res-lig.psf
+Info: PARAMETER file: CHARMM format! 
+Info: PARAMETERS             ../par_all36_prot.prm
+Info: PARAMETERS             ../par_all36_cgenff.prm
+Info: PARAMETERS             ../ligand.str
+Info: PARAMETERS             ../toppar_water_ions.str
+Info: USING ARITHMETIC MEAN TO COMBINE L-J SIGMA PARAMETERS
+Info: SKIPPING rtf SECTION IN STREAM FILE
+Info: SUMMARY OF PARAMETERS:
+Info: 664 BONDS
+Info: 2020 ANGLES
+Info: 4889 DIHEDRAL
+Info: 164 IMPROPER
+Info: 6 CROSSTERM
+Info: 227 VDW
+Info: 51 VDW_PAIRS
+Info: 0 NBTHOLE_PAIRS
+Info: TIME FOR READING PSF FILE: 0.0059998
+Info: Reading pdb file res-lig.pdb
+Info: TIME FOR READING PDB FILE: 0.00100017
+Info: 
+Info: ****************************
+Info: STRUCTURE SUMMARY:
+Info: 116 ATOMS
+Info: 117 BONDS
+Info: 208 ANGLES
+Info: 292 DIHEDRALS
+Info: 5 IMPROPERS
+Info: 0 CROSSTERMS
+Info: 0 EXCLUSIONS
+Info: 59 RIGID BONDS
+Info: 289 DEGREES OF FREEDOM
+Info: 57 HYDROGEN GROUPS
+Info: 4 ATOMS IN LARGEST HYDROGEN GROUP
+Info: 57 MIGRATION GROUPS
+Info: 4 ATOMS IN LARGEST MIGRATION GROUP
+Info: TOTAL MASS = 814.015 amu
+Info: TOTAL CHARGE = 8.75443e-08 e
+Info: *****************************
+Info: 
+Info: Entering startup at 0.122 s, 5.51172 MB of memory in use
+Info: Startup phase 0 took 0 s, 5.51172 MB of memory in use
+Info: ADDED 604 IMPLICIT EXCLUSIONS
+Info: Startup phase 1 took 0.000999928 s, 5.90234 MB of memory in use
+Info: NONBONDED TABLE R-SQUARED SPACING: 0.0625
+Info: NONBONDED TABLE SIZE: 833 POINTS
+Info: ABSOLUTE IMPRECISION IN FAST TABLE ENERGY: 1.69407e-21 AT 15.998
+Info: RELATIVE IMPRECISION IN FAST TABLE ENERGY: 8.8807e-16 AT 15.9354
+Info: ABSOLUTE IMPRECISION IN FAST TABLE FORCE: 8.47033e-22 AT 15.998
+Info: RELATIVE IMPRECISION IN FAST TABLE FORCE: 2.88605e-15 AT 15.9354
+Info: INCONSISTENCY IN FAST TABLE ENERGY VS FORCE: 0.000290362 AT 0.251946
+Info: ABSOLUTE IMPRECISION IN VDWA TABLE ENERGY: 2.46519e-32 AT 15.8094
+Info: RELATIVE IMPRECISION IN VDWA TABLE ENERGY: 4.58389e-15 AT 15.9354
+Info: ABSOLUTE IMPRECISION IN VDWA TABLE FORCE: 2.88889e-33 AT 15.9354
+Info: RELATIVE IMPRECISION IN VDWA TABLE FORCE: 2.08346e-15 AT 15.9354
+Info: INCONSISTENCY IN VDWA TABLE ENERGY VS FORCE: 0.0167626 AT 14.9979
+Info: ABSOLUTE IMPRECISION IN VDWB TABLE ENERGY: 2.38299e-26 AT 15.9354
+Info: RELATIVE IMPRECISION IN VDWB TABLE ENERGY: 3.28058e-14 AT 15.9354
+Info: ABSOLUTE IMPRECISION IN VDWB TABLE FORCE: 4.20053e-26 AT 15.9354
+Info: RELATIVE IMPRECISION IN VDWB TABLE FORCE: 1.80765e-15 AT 15.9354
+Info: INCONSISTENCY IN VDWB TABLE ENERGY VS FORCE: 0.0678971 AT 14.9979
+Info: Startup phase 2 took 0.00200009 s, 7.875 MB of memory in use
+Info: Startup phase 3 took 0 s, 7.875 MB of memory in use
+Info: Startup phase 4 took 0 s, 7.875 MB of memory in use
+Info: Startup phase 5 took 0.000999928 s, 7.875 MB of memory in use
+Info: ORIGINAL ATOMS MINMAX IS -19.07 0.808 62.47  -4.159 22.247 74.653
+Info: ADJUSTED ATOMS MINMAX IS -16.673 4.44663 63.8555  -6.913 19.6104 74.0005
+Info: PATCH GRID IS 2 BY 1 BY 1
+Info: PATCH GRID IS 1-AWAY BY 1-AWAY BY 1-AWAY
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+Info: LARGEST PATCH (0) HAS 60 ATOMS
+Info: TORUS A SIZE 1 USING 0
+Info: TORUS B SIZE 1 USING 0
+Info: TORUS C SIZE 1 USING 0
+Info: TORUS MINIMAL MESH SIZE IS 1 BY 1 BY 1
+Info: Placed 100% of base nodes on same physical node as patch
+Info: Startup phase 6 took 0 s, 7.875 MB of memory in use
+Info: Startup phase 7 took 0 s, 7.875 MB of memory in use
+Info: Startup phase 8 took 0 s, 7.875 MB of memory in use
+Info: Startup phase 9 took 0 s, 7.875 MB of memory in use
+Info: Startup phase 10 took 0 s, 7.875 MB of memory in use
+Info: Startup phase 11 took 0 s, 7.875 MB of memory in use
+LDB: Central LB being created...
+Info: Startup phase 12 took 0 s, 7.875 MB of memory in use
+Info: CREATING 25 COMPUTE OBJECTS
+Info: useSync: 0 useProxySync: 0
+Info: Startup phase 13 took 0 s, 7.91406 MB of memory in use
+Info: Startup phase 14 took 0 s, 7.91406 MB of memory in use
+Info: Startup phase 15 took 0 s, 8.33203 MB of memory in use
+Info: Finished startup at 0.126 s, 8.33203 MB of memory in use
+
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info: Coordinate file res-lig.dcd opened for reading.
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 0
+TCL: Running for 0 steps
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG
+
+ENERGY:       0        20.4140        62.1430        46.8238         0.9527            -35.9111        -0.5459         0.0000         0.0000        90.3954            184.2719       314.8029        93.8765       184.5613       314.8029
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 1
+TCL: Running for 0 steps
+ENERGY:       1        19.2227        48.1343        49.3503         0.9766            -37.8327         3.9833         0.0000         0.0000        94.5615            178.3960       329.3114        83.8345       178.7294       329.3114
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 2
+TCL: Running for 0 steps
+ENERGY:       2        16.0459        50.4417        49.1224         1.5866            -38.1227        -0.1009         0.0000         0.0000        95.8351            174.8081       333.7467        78.9730       175.2224       333.7467
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 3
+TCL: Running for 0 steps
+ENERGY:       3        23.1838        61.1337        45.1720         0.2022            -36.0153        -5.0967         0.0000         0.0000        96.3110            184.8907       335.4043        88.5796       185.1306       335.4043
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 4
+TCL: Running for 0 steps
+ENERGY:       4        19.5686        51.5237        48.6658         1.1480            -34.0003        -3.3959         0.0000         0.0000        93.2501            176.7600       324.7444        83.5099       177.0691       324.7444
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 5
+TCL: Running for 0 steps
+ENERGY:       5        35.0250        64.0958        45.6271         2.8863            -38.8463        -5.7028         0.0000         0.0000        96.7128            199.7979       336.8035       103.0851       199.8675       336.8035
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 6
+TCL: Running for 0 steps
+ENERGY:       6        21.8722        61.7398        44.4012         1.4050            -35.3785        -1.5100         0.0000         0.0000        91.6870            184.2165       319.3010        92.5296       184.3271       319.3010
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 7
+TCL: Running for 0 steps
+ENERGY:       7        22.6919        74.4116        48.4365         2.2760            -35.0681        -1.1719         0.0000         0.0000        92.6351            204.2111       322.6026       111.5760       204.2626       322.6026
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 8
+TCL: Running for 0 steps
+ENERGY:       8        24.0168        70.9635        46.0937         3.1485            -36.2291        -5.0281         0.0000         0.0000        89.3089            192.2742       311.0194       102.9652       192.3516       311.0194
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 9
+TCL: Running for 0 steps
+ENERGY:       9        20.5350        60.4629        47.1420         1.7994            -42.2777        -2.9402         0.0000         0.0000        93.8429            178.5644       326.8091        84.7215       178.8659       326.8091
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 10
+TCL: Running for 0 steps
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG
+
+ENERGY:      10        15.8546        61.7275        45.9816         1.0550            -38.3921         0.3398         0.0000         0.0000        91.9403            178.5067       320.1832        86.5663       178.7853       320.1832
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 11
+TCL: Running for 0 steps
+ENERGY:      11        20.0331        52.2430        48.0677         2.6052            -34.7861        -0.4704         0.0000         0.0000        94.5318            182.2243       329.2080        87.6926       182.6402       329.2080
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 12
+TCL: Running for 0 steps
+ENERGY:      12        22.1159        63.2093        44.7754         2.4907            -40.6795        -2.2709         0.0000         0.0000        96.7095            186.3504       336.7921        89.6409       186.7046       336.7921
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 13
+TCL: Running for 0 steps
+ENERGY:      13        19.7510        63.6506        41.6365         0.7590            -27.1852         6.7005         0.0000         0.0000        93.3246            198.6369       325.0040       105.3123       198.9247       325.0040
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 14
+TCL: Running for 0 steps
+ENERGY:      14        24.2227        77.2745        44.8703         1.1208            -38.0052         0.9420         0.0000         0.0000        95.1886            205.6138       331.4955       110.4251       205.5521       331.4955
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 15
+TCL: Running for 0 steps
+ENERGY:      15        18.9550        60.6685        49.6700         1.7115            -35.4481         0.2150         0.0000         0.0000        94.3147            190.0866       328.4520        95.7719       190.3379       328.4520
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 16
+TCL: Running for 0 steps
+ENERGY:      16        19.0663        62.9178        47.0307         1.0735            -35.1231         0.6134         0.0000         0.0000        99.1909            194.7695       345.4334        95.5786       195.0453       345.4334
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 17
+TCL: Running for 0 steps
+ENERGY:      17        21.9524        54.6338        43.2751         0.1924            -37.9182         5.2038         0.0000         0.0000        93.8069            181.1462       326.6837        87.3393       181.5220       326.6837
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 18
+TCL: Running for 0 steps
+ENERGY:      18        20.2807        68.0716        41.9709         1.8609            -37.8324        -2.9998         0.0000         0.0000        94.5412            185.8931       329.2409        91.3519       186.1041       329.2409
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 19
+TCL: Running for 0 steps
+ENERGY:      19        22.2181        56.9572        48.5040         1.1585            -38.3076        -1.0705         0.0000         0.0000        97.0765            186.5361       338.0700        89.4596       186.7642       338.0700
+
+LDB: ============= START OF LOAD BALANCING ============== 0.158
+LDB: ============== END OF LOAD BALANCING =============== 0.158
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 0.159
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 20
+TCL: Running for 0 steps
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG
+
+ENERGY:      20        23.3238        61.5450        46.4424         3.1863            -34.8780         1.7167         0.0000         0.0000        93.6222            194.9584       326.0404       101.3362       195.1071       326.0404
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 21
+TCL: Running for 0 steps
+ENERGY:      21        24.4366        67.8989        49.8964         1.7225            -45.0652         5.5343         0.0000         0.0000        90.7784            195.2018       316.1366       104.4234       195.3981       316.1366
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 22
+TCL: Running for 0 steps
+ENERGY:      22        15.3123        65.5767        41.3729         0.2435            -41.7872         6.9539         0.0000         0.0000        93.9198            181.5919       327.0768        87.6721       181.8452       327.0768
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 23
+TCL: Running for 0 steps
+ENERGY:      23        18.9334        67.7824        46.6231         1.2797            -37.2065         2.4769         0.0000         0.0000        92.2601            192.1491       321.2967        99.8891       192.3367       321.2967
+
+Info: Reading timestep from file.
+Info: Updating unit cell from timestep.
+Warning: Cell basis vectors should be specified before reading trajectory.
+Info: REMOVING COM VELOCITY 0.128236 -0.269676 -0.399174
+TCL: Setting parameter firstTimestep to 24
+TCL: Running for 0 steps
+ENERGY:      24        25.2586        70.7667        48.2627         0.9510            -38.8628         3.8799         0.0000         0.0000        92.7392            202.9952       322.9655       110.2559       203.2066       322.9655
+
+Info: Closing coordinate file.
+WRITING EXTENDED SYSTEM TO OUTPUT FILE AT STEP 24
+WRITING COORDINATES TO OUTPUT FILE AT STEP 24
+The last position output (seq=-2) takes 0.001 seconds, 9.121 MB of memory in use
+WRITING VELOCITIES TO OUTPUT FILE AT STEP 24
+The last velocity output (seq=-2) takes 0.001 seconds, 9.121 MB of memory in use
+====================================================
+
+WallClock: 0.170000  CPUTime: 0.169000  Memory: 9.121094 MB
