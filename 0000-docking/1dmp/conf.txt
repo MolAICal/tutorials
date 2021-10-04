@@ -1,9 +1,0 @@
-out = all.pdbqt
-cpu = 10
-center_x = 10.879325866699219
-center_y = -0.25104638934135437
-center_z = 20.753602981567383
-size_x = 30
-size_y = 30
-size_z = 30
-num_modes = 1
