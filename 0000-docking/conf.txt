@@ -1,0 +1,11 @@
+out = all.pdbqt
+
+cpu = 4
+receptor = protein.pdbqt
+center_x = 10.879
+center_y = -0.251
+center_z = 20.754
+size_x = 20
+size_y = 20
+size_z = 20
+num_modes = 3 

@@ -1,0 +1,88 @@
+REMARK VINA RESULT:      -6.5      6.026     10.773
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_3  and  C2_4 
+REMARK    2  A    between atoms: C2_4  and  C20_13 
+REMARK    3  A    between atoms: C3_5  and  C31_20 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C5_8  and  O5_9 
+REMARK    6  A    between atoms: C6_10  and  C61_27 
+REMARK    7  A    between atoms: N7_11  and  C7_12 
+REMARK    8  A    between atoms: C7_12  and  C70_34 
+REMARK    9  A    between atoms: C28_17  and  N29_18 
+REMARK   10  A    between atoms: C31_20  and  C32_21 
+REMARK   11  A    between atoms: C61_27  and  C62_28 
+REMARK   12  A    between atoms: C72_36  and  N79_37 
+ROOT
+ATOM      1  C1  DMQ d         -15.382  11.033  33.525  0.00  0.00     0.322 C 
+ATOM      2  O1  DMQ d         -16.333  11.571  34.056  0.00  0.00    -0.247 OA
+ATOM      3  N2  DMQ d         -15.489   9.704  33.390  0.00  0.00    -0.322 N 
+ATOM      4  C3  DMQ d         -14.293   8.827  33.228  0.00  0.00     0.124 C 
+ATOM      5  C4  DMQ d         -13.481   8.960  31.976  0.00  0.00     0.172 C 
+ATOM      6  C5  DMQ d         -12.646  10.215  31.891  0.00  0.00     0.172 C 
+ATOM      7  C6  DMQ d         -13.450  11.502  31.916  0.00  0.00     0.124 C 
+ATOM      8  N7  DMQ d         -14.289  11.767  33.134  0.00  0.00    -0.322 N 
+ENDROOT
+BRANCH   3   9
+ATOM      9  C2  DMQ d         -16.843   9.098  33.600  0.00  0.00     0.166 C 
+BRANCH   9  10
+ATOM     10  C20 DMQ d         -17.475   8.520  32.373  0.00  0.00    -0.038 A 
+ATOM     11  C29 DMQ d         -18.191   9.332  31.487  0.00  0.00     0.037 A 
+ATOM     12  C28 DMQ d         -18.827   8.739  30.376  0.00  0.00     0.026 A 
+ATOM     13  C23 DMQ d         -18.708   7.348  30.130  0.00  0.00     0.029 A 
+ATOM     14  C22 DMQ d         -17.983   6.537  31.007  0.00  0.00     0.003 A 
+ATOM     15  C21 DMQ d         -17.382   7.140  32.125  0.00  0.00     0.009 A 
+BRANCH  12  16
+ATOM     16  N29 DMQ d         -19.726   9.492  29.574  0.00  0.00    -0.399 N 
+ATOM     17  H14 DMQ d         -20.540   9.032  29.142  0.00  0.00     0.156 HD
+ATOM     18  H15 DMQ d         -19.565  10.499  29.426  0.00  0.00     0.156 HD
+ENDBRANCH  12  16
+ENDBRANCH   9  10
+ENDBRANCH   3   9
+BRANCH   4  19
+ATOM     19  C31 DMQ d         -13.505   8.755  34.549  0.00  0.00     0.066 C 
+BRANCH  19  20
+ATOM     20  C32 DMQ d         -13.783   7.409  35.202  0.00  0.00    -0.056 A 
+ATOM     21  C37 DMQ d         -13.417   7.203  36.559  0.00  0.00     0.007 A 
+ATOM     22  C36 DMQ d         -13.630   5.946  37.161  0.00  0.00     0.001 A 
+ATOM     23  C35 DMQ d         -14.220   4.910  36.400  0.00  0.00     0.000 A 
+ATOM     24  C34 DMQ d         -14.592   5.104  35.060  0.00  0.00     0.001 A 
+ATOM     25  C33 DMQ d         -14.365   6.350  34.462  0.00  0.00     0.007 A 
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   8  26
+ATOM     26  C7  DMQ d         -14.032  13.063  33.815  0.00  0.00     0.166 C 
+BRANCH  26  27
+ATOM     27  C70 DMQ d         -12.760  13.823  33.504  0.00  0.00    -0.038 A 
+ATOM     28  C79 DMQ d         -11.638  13.735  34.364  0.00  0.00     0.009 A 
+ATOM     29  C78 DMQ d         -10.499  14.529  34.120  0.00  0.00     0.003 A 
+ATOM     30  C77 DMQ d         -10.495  15.420  33.013  0.00  0.00     0.029 A 
+ATOM     31  C72 DMQ d         -11.608  15.502  32.151  0.00  0.00     0.026 A 
+ATOM     32  C71 DMQ d         -12.735  14.696  32.394  0.00  0.00     0.037 A 
+BRANCH  31  33
+ATOM     33  N79 DMQ d         -11.590  16.418  31.054  0.00  0.00    -0.399 N 
+ATOM     34  H32 DMQ d         -11.484  17.428  31.227  0.00  0.00     0.156 HD
+ATOM     35  H33 DMQ d         -11.682  16.067  30.090  0.00  0.00     0.156 HD
+ENDBRANCH  31  33
+ENDBRANCH  26  27
+ENDBRANCH   8  26
+BRANCH   5  36
+ATOM     36  O4  DMQ d         -12.699   7.807  31.982  0.00  0.00    -0.391 OA
+ATOM     37  H5  DMQ d         -11.796   8.039  32.160  0.00  0.00     0.210 HD
+ENDBRANCH   5  36
+BRANCH   7  38
+ATOM     38  C61 DMQ d         -14.290  11.834  30.629  0.00  0.00     0.066 C 
+BRANCH  38  39
+ATOM     39  C62 DMQ d         -13.694  12.935  29.755  0.00  0.00    -0.056 A 
+ATOM     40  C67 DMQ d         -12.365  12.820  29.263  0.00  0.00     0.007 A 
+ATOM     41  C66 DMQ d         -11.841  13.789  28.379  0.00  0.00     0.001 A 
+ATOM     42  C65 DMQ d         -12.658  14.877  27.996  0.00  0.00     0.000 A 
+ATOM     43  C64 DMQ d         -13.973  15.007  28.487  0.00  0.00     0.001 A 
+ATOM     44  C63 DMQ d         -14.483  14.038  29.368  0.00  0.00     0.007 A 
+ENDBRANCH  38  39
+ENDBRANCH   7  38
+BRANCH   6  45
+ATOM     45  O5  DMQ d         -12.003  10.164  30.670  0.00  0.00    -0.391 OA
+ATOM     46  H7  DMQ d         -12.024  11.024  30.266  0.00  0.00     0.210 HD
+ENDBRANCH   6  45
+TORSDOF 12
