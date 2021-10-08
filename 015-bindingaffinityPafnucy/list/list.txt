@@ -1,0 +1,5 @@
+lig_1.mol2
+lig_2.mol2
+lig_3.mol2
+lig_4.mol2
+lig_5.mol2
