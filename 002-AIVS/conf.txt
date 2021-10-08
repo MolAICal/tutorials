@@ -1,4 +1,4 @@
-receptor = pro.pdbqt
+receptor = protein.pdbqt
 out = all.pdbqt
 
 cpu = 1
