@@ -1,6 +1,6 @@
 out = all.pdbqt
 
-cpu = 4
+cpu = 8
 receptor = protein.pdbqt
 center_x = 10.879
 center_y = -0.251
