@@ -1,0 +1,10 @@
+Finding intermodel H-bonds
+Constraints relaxed by 0.4 angstroms and 20 degrees
+Models used:
+	#0 protein.pdb
+	#1 1.pdb
+
+H-bonds (donor, acceptor, hydrogen, D..A dist, D-H..A dist):
+#0 SER 144.A OG  #1 O6K 502.A O48  no hydrogen  2.817  N/A
+#0 CYS 145.A SG  #1 O6K 502.A O48  no hydrogen  3.160  N/A
+#0 GLU 166.A N   #1 O6K 502.A O37  no hydrogen  2.933  N/A
