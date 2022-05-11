@@ -1,0 +1,5 @@
+NC(=O)c1ccc2c(c1)cccc2	lig1
+N#CC(Cc1ccc(cc1)O)C#N lig2
+OC(=O)C(COCc1cccnc1)N lig5
+OC1CCC2(C(=CCC3C2CCC2(C3CCC2O)C)C1)C lig6
+CCC1CC2C(C1C(=O)CF)(C)CCC1C2CCC2=CC(=O)CCC12 lig10
