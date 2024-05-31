@@ -30,7 +30,7 @@ genAIWay                     Fdafrag
 genAINumber                  120
 # obabelPath					 C:\Program Files (x86)\OpenBabel-2.4.1\obabel.exe
 # Search the conformation algorithm
-# Tow methods: "random" and "fibonacci"
+# Two methods: "random" and "fibonacci"
 perturbeSearch              on
 genAlgorithm            	fibonacci
 ranGenOptNum           	 	361
