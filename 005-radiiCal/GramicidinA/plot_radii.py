@@ -1,10 +1,17 @@
 import matplotlib.pyplot as plt
 import csv
+import argparse
+
+p = argparse.ArgumentParser()
+
+p.add_argument('--radii_f_path', '-r', type=str, default="channel_radii.dat", help="The path of radii file.")
+
+args = p.parse_args()
 
 X = []
 Y = []
 
-with open(r'channel_radii.dat', 'r') as datafile:
+with open(args.radii_f_path, 'r') as datafile:
     plotting = csv.reader(datafile, delimiter=' ', skipinitialspace=True)
     next(plotting)
 
