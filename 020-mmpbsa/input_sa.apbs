@@ -1,0 +1,22 @@
+read
+    mol pqr lig_sa_tmp_3.pqr
+end
+apolar name apol
+    mol 1
+    gamma 1.0
+    press 0
+    bconc 0
+    dpos 0.2
+    grid 0.5 0.5 0.5
+    sdens 10.0
+    srad 1.4
+    srfm sacc
+    swin 0.3
+    temp 310.0
+    calcenergy total
+    calcforce no
+end
+print
+    apolEnergy apol
+end
+quit

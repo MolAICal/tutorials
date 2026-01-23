@@ -1,0 +1,17 @@
+# 1. fix autopsf
+molaical.exe -call run -c fixpsf
+
+# 2. generate psf
+molaical.exe -call run -c vmdargs -i -pdb $molargs1 -dispdev text -args autopsf autopsf -mol 0 -top $molargs2 -prefix $molargs3
+
+# 3. default to run 20 ps minimiztion and 40 ps MD simulation 
+molaical.exe -call run -c runnamd -i -dispdev text -args -s $molargs3_formatted_autopsf.psf -c $molargs3_formatted_autopsf.pdb -ff $molargs2
+
+# 4. Cut last 10 steps for MM/GBSA calculation 
+molaical.exe -call run -c catdcd -i -dispdev text -args -out result.dcd -first 51 -last 60 -stride 1 $molargs3_formatted_autopsf_md.dcd
+
+# 5. Calculate MM/GBSA
+molaical.exe -call run -c mmpbgbsa -i -dispdev text -args -s $molargs3_formatted_autopsf.psf -c $molargs3_formatted_autopsf.pdb -t result.dcd -cs "segname,AP1,CO1" -rs "segname,AP1" -ls "segname,CO1" -pb 0 -gb 1 -ff $molargs2
+
+# 6. delete file with command (in windows: del xxx, in linux: rm xxx)
+del *md.* *run.* *formatted* result.dcd

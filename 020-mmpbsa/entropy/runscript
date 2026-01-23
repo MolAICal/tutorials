@@ -1,0 +1,26 @@
+# 1. calculate complex part (rename in win: move /y carma.fitted.dcd complex_fit.dcd)
+cd $molargs1
+
+molaical.exe -call run -c entropy -i -v -fit -force -atmid ALLID -segid A -segid C complex.dcd complex.psf
+molaical.exe -call run -c entropy -i -v -cov -eigen -mass -force -temp 310 -atmid ALLID -segid A -segid C -last 25 carma.fitted.dcd complex.psf > com.log 
+
+cd ..
+
+# 2. calculate receptor part
+cd $molargs2
+
+molaical.exe -call run -c entropy -i -v -fit -atmid ALLID -segid A protein.dcd protein.psf
+molaical.exe -call run -c entropy -i -v -cov -eigen -mass -force -temp 310 -atmid ALLID -segid A -last 25 carma.fitted.dcd protein.psf > rec.log 
+
+cd ..
+
+# 3. calculate receptor part
+cd $molargs3
+
+molaical.exe -call run -c entropy -i -v -fit -force -atmid ALLID -segid C ligand.dcd ligand.psf
+molaical.exe -call run -c entropy -i -v -cov -eigen -mass -force -temp 310 -atmid ALLID -segid C -last 25 carma.fitted.dcd ligand.psf > lig.log
+
+cd ..
+
+# in windows: | findstr /I /R "entropy" > results.log   in linux: | grep -i "entropy" > results.log
+molaical.exe -entropy -if -c $molargs1/com.log -r $molargs2/rec.log -l $molargs3/lig.log -t 310.0 > results.log

@@ -1,0 +1,35 @@
+coordinates complex_tmp_mmgbpbsa_ligand.pdb
+structure complex_tmp_mmgbpbsa_ligand.psf
+paraTypeCharmm on
+parameters ../par_all36_prot.prm
+parameters ../par_all36_cgenff.prm
+parameters ../ligand.str
+parameters ../toppar_water_ions.str
+mergeCrossterms yes
+numsteps 1
+exclude scaled1-4
+outputname complex_lig_mm_tmp
+temperature 310.0
+COMmotion yes
+cutoff 16.0
+dielectric 1
+switching on
+switchdist 15.0
+GBIS on
+solventDielectric 78.5
+intrinsicRadiusOffset 0.09
+ionConcentration 0.15
+alphaCutoff 15
+GBISDelta 1.0
+GBISBeta 0.8
+GBISGamma 4.85
+SASA on
+surfaceTension 0.0072
+set ts 0
+coorfile open dcd complex_tmp_mmgbpbsa_ligand.dcd
+while { ![coorfile read] } {
+    firstTimestep $ts
+    run 0
+    incr ts
+}
+coorfile close

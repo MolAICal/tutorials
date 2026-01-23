@@ -1,0 +1,6 @@
+# Project leader: Qifeng Bai, the official site of MolAICal: https://molaical.github.io or https://molaical.gitlab.io #
+
+Program not found at: E:\test\log\MolAICal-win64\mtools\etools\carma\carma.
+The filename may be missing its extension. On Windows systems, executable programs can run without extensions, so the program will attempt to continue execution.
+
+Executing Windows command: "E:\test\log\MolAICal-win64\mtools\etools\carma\carma" -v -cov -eigen -mass -force -temp 310 -atmid ALLID -segid A -segid C -last 25 carma.fitted.dcd complex.psf

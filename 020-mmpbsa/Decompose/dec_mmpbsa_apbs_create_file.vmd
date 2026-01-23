@@ -1,0 +1,31 @@
+source "E:/workdir/MolCalSys/ideamac/out/production/MolAICal1.40//scripts/mm_gbpb_sa.tcl"
+mmgbpbsa \
+-system_topology       ../mpro.psf \
+-system_coords         ../mpro.pdb \
+-trajectory_files      ../mpro.dcd \
+-namd_config_file      input.namd \
+-pb_gb_file            ../input.apbs \
+-debug     0 \
+-output_filename       decom_mmpbsa_apbs_create_file.log \
+-force_parameters       ../par_all36_prot.prm \
+-force_parameters       ../par_all36_cgenff.prm \
+-force_parameters       ../ligand.str \
+-force_parameters       ../toppar_water_ions.str \
+-complex_selection       "protein and resid 165 or resname LIG" \
+-receptor_selection       "protein and resid 165" \
+-ligand_selection       "resname LIG" \
+-first_frame     0 \
+-last_frame      -1 \
+-frame_stride    1 \
+-namd_executable    E:/workdir/MolAICal/method/mmgbsa_v1/mmpbsa/namd2/namd2 \
+-mm_dielectric        1  \
+-poisson_boltzmann        2 \
+-pb_radii_type    mparse \
+-pb_boundary_flag   mdh \
+-pb_charge_method   spl2 \
+-surface_accessibility        2 \
+-sa_radii_type    mparse \
+-sa_gamma         0.0072 \
+-sa_beta          0.00 \
+-pb_executable E:/workdir/MolCalSys/ideamac/out/production/MolAICal1.40/mtools/etools/apbs/bin/apbs
+quit

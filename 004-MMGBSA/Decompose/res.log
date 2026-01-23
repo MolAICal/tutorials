@@ -1,13 +1,18 @@
+# Project leader: Qifeng Bai, the official site of MolAICal: https://molaical.github.io or https://molaical.gitlab.io #
+
+Executing Linux command: /home/feng/soft/namd3/namd3 +p1 res.conf
 Charm++: standalone mode (not using charmrun)
-Charm++> Running in Multicore mode: 3 threads (PEs)
+Charm++> Running in Multicore mode: 1 threads (PEs)
 Charm++> Using recursive bisection (scheme 3) for topology aware partitions
-Charm++ warning> fences and atomic operations not available in native assembly
-Converse/Charm++ Commit ID: v6.10.2-0-g7bf00fa-namd-charm-6.10.2-build-2020-Aug-05-556
-Charm++> Disabling isomalloc because mmap() does not work.
+Converse/Charm++ Commit ID: 
 CharmLB> Load balancer assumes all CPUs are same.
-Charm++> Running on 1 hosts (1 sockets x 6 cores x 2 PUs = 12-way SMP)
-Charm++> cpu topology info is gathered in 0.007 seconds.
-Info: NAMD 2.14 for Win64-multicore
+Charm++> Running on 1 hosts (1 sockets x 8 cores x 2 PUs = 16-way SMP)
+Charm++> cpu topology info is gathered in 0.000 seconds.
+Info: Built with CUDA version 11080
+Did not find +devices i,j,k,... argument, using all
+Pe 0 physical rank 0 binding to CUDA device 0 on feng-System-Product-Name: 'NVIDIA GeForce RTX 2070 SUPER'  Mem: 7959MB  Rev: 7.5  PCI: 0:1:0
+CharmLB> Load balancing instrumentation for communication is off.
+Info: NAMD 3.0.1 for Linux-x86_64-multicore-CUDA
 Info: 
 Info: Please visit http://www.ks.uiuc.edu/Research/namd/
 Info: for updates, documentation, and support information.
@@ -15,19 +20,22 @@ Info:
 Info: Please cite Phillips et al., J. Chem. Phys. 153:044130 (2020) doi:10.1063/5.0014475
 Info: in all publications reporting results obtained with NAMD.
 Info: 
-Info: Based on Charm++/Converse 61002 for multicore-win64
-Info: Built Wed, Aug 05, 2020 1:08:15 PM by jim on europa
-Info: Running on 3 processors, 1 nodes, 1 physical nodes.
+Info: Based on Charm++/Converse 80000 for multicore-linux-x86_64-gcc
+Info: Built Mon Oct 14 10:33:44 CDT 2024 by dhardy on athine.ks.uiuc.edu
+Info: 1 NAMD  3.0.1  Linux-x86_64-multicore-CUDA  1    feng-System-Product-Name  feng
+Info: Running on 1 processors, 1 nodes, 1 physical nodes.
 Info: CPU topology information available.
-Info: Charm++/Converse parallel runtime startup completed at 0.00899982 s
+Info: Charm++/Converse parallel runtime startup completed at 0.0860832 s
 CkLoopLib is used in SMP with simple dynamic scheduling (converse-level notification)
-Info: 2.52344 MB of memory in use based on GetProcessMemoryInfo
+Info: 0 MB of memory in use based on /proc/self/stat
 Info: Configuration file is res.conf
-Info: Working in the current directory E:\workdir\MolAICal\tutorial\tutorial\004-MMGBSA\Decompose
+Info: Working in the current directory /home/feng/tutorial/004-MMGBSA/Decompose
 TCL: Suspending until startup complete.
+Warning: The parameter fullElectFrequency now defaults to nonbondedFreq (1) rather than stepsPerCycle.
+Warning: Always using force tables for GPU nonbonded kernel due to unsupported config parameters.
 Info: SIMULATION PARAMETERS:
 Info: TIMESTEP               1
-Info: NUMBER OF STEPS        0
+Info: NUMBER OF STEPS        1
 Info: STEPS PER CYCLE        20
 Info: LOAD BALANCER  Centralized
 Info: LOAD BALANCING STRATEGY  New Load Balancers -- DEFAULT
@@ -37,8 +45,9 @@ Info: LAST LDB TIMESTEP     -1
 Info: LDB BACKGROUND SCALING 1
 Info: HOM BACKGROUND SCALING 1
 Info: MIN ATOMS PER PATCH    40
+Info: EMPTY PATCH LOAD       40 ATOMS
 Info: INITIAL TEMPERATURE    310
-Info: CENTER OF MASS MOVING INITIALLY? NO
+Info: CENTER OF MASS MOVING INITIALLY? YES
 Info: DIELECTRIC             1
 Info: EXCLUDE                SCALED ONE-FOUR
 Info: 1-4 ELECTROSTATICS SCALED BY 1
@@ -53,7 +62,7 @@ Info: NO RESTART FILE
 Info: SWITCHING ACTIVE
 Info: SWITCHING ON           15
 Info: SWITCHING OFF          16
-Info: PAIRLIST DISTANCE      18
+Info: PAIRLIST DISTANCE      16
 Info: PAIRLIST SHRINK RATE   0.01
 Info: PAIRLIST GROW RATE     0.01
 Info: PAIRLIST TRIGGER       0.3
@@ -61,36 +70,27 @@ Info: PAIRLISTS PER CYCLE    2
 Info: PAIRLISTS ENABLED
 Info: MARGIN                 0
 Info: HYDROGEN GROUP CUTOFF  2.5
-Info: PATCH DIMENSION        20.5
+Info: PATCH DIMENSION        18.5
+Info: OUTPUT ENERGY PRECISION 4
 Info: CROSSTERM ENERGY INCLUDED IN DIHEDRAL
 Info: TIMING OUTPUT STEPS    100
 Info: GBIS GENERALIZED BORN IMPLICIT SOLVENT ACTIVE
 Info: GBIS SOLVENT DIELECTRIC: 78.5
 Info: GBIS PROTEIN DIELECTRIC: 1
 Info: GBIS COULOMB RADIUS OFFSET: 0.09 Ang
-Info: GBIS ION CONCENTRATION: 0.3 M
-Info: GBIS DEBYE SCREENING LENGTH: 5.66311 Ang
+Info: GBIS ION CONCENTRATION: 0.15 M
+Info: GBIS DEBYE SCREENING LENGTH: 8.00884 Ang
 Info: GBIS DELTA: 1
 Info: GBIS BETA: 0.8
 Info: GBIS GAMMA: 4.85
 Info: GBIS BORN RADIUS CUTOFF: 15 Ang
 Info: GBIS MAX BORN RADIUS: 30 Ang
 Info: SASA SURFACE TENSION: 0.0072 kcal/mol/Ang^2
-Info: LANGEVIN DYNAMICS ACTIVE
-Info: LANGEVIN TEMPERATURE   310
-Info: LANGEVIN USING BBK INTEGRATOR
-Info: LANGEVIN DAMPING COEFFICIENT IS 1 INVERSE PS
-Info: LANGEVIN DYNAMICS APPLIED TO HYDROGENS
-Info: FULL ELECTROSTATIC EVALUATION FREQUENCY      4
+Info: FULL ELECTROSTATIC EVALUATION FREQUENCY      1
 Info: USING VERLET I (r-RESPA) MTS SCHEME.
 Info: C1 SPLITTING OF LONG RANGE ELECTROSTATICS
 Info: PLACING ATOMS IN PATCHES BY HYDROGEN GROUPS
-Info: RIGID BONDS TO HYDROGEN : ALL
-Info:         ERROR TOLERANCE : 1e-08
-Info:          MAX ITERATIONS : 100
-Info: RIGID WATER USING SETTLE ALGORITHM
-Info: NONBONDED FORCES EVALUATED EVERY 2 STEPS
-Info: RANDOM NUMBER SEED     1618490832
+Info: RANDOM NUMBER SEED     12345
 Info: USE HYDROGEN BONDS?    NO
 Info: COORDINATE PDB         res.pdb
 Info: STRUCTURE FILE         res.psf
@@ -110,9 +110,9 @@ Info: 6 CROSSTERM
 Info: 227 VDW
 Info: 51 VDW_PAIRS
 Info: 0 NBTHOLE_PAIRS
-Info: TIME FOR READING PSF FILE: 0.00200009
+Info: TIME FOR READING PSF FILE: 0.000927327
 Info: Reading pdb file res.pdb
-Info: TIME FOR READING PDB FILE: 0
+Info: TIME FOR READING PDB FILE: 2.6979e-05
 Info: 
 Info: ****************************
 Info: STRUCTURE SUMMARY:
@@ -123,8 +123,7 @@ Info: 30 DIHEDRALS
 Info: 0 IMPROPERS
 Info: 0 CROSSTERMS
 Info: 0 EXCLUSIONS
-Info: 9 RIGID BONDS
-Info: 42 DEGREES OF FREEDOM
+Info: 51 DEGREES OF FREEDOM
 Info: 8 HYDROGEN GROUPS
 Info: 4 ATOMS IN LARGEST HYDROGEN GROUP
 Info: 8 MIGRATION GROUPS
@@ -133,56 +132,49 @@ Info: TOTAL MASS = 131.193 amu
 Info: TOTAL CHARGE = 2.23517e-08 e
 Info: *****************************
 Info: 
-Info: Entering startup at 0.119 s, 4.89453 MB of memory in use
-Info: Startup phase 0 took 0 s, 4.89453 MB of memory in use
+Info: Entering startup at 0.164738 s, 0 MB of memory in use
+Info: Startup phase 0 took 2.2692e-05 s, 0 MB of memory in use
 Info: ADDED 73 IMPLICIT EXCLUSIONS
-Info: Startup phase 1 took 0.000999928 s, 5.24609 MB of memory in use
+Info: Startup phase 1 took 0.00103943 s, 0 MB of memory in use
 Info: NONBONDED TABLE R-SQUARED SPACING: 0.0625
 Info: NONBONDED TABLE SIZE: 833 POINTS
 Info: ABSOLUTE IMPRECISION IN FAST TABLE ENERGY: 1.69407e-21 AT 15.998
-Info: RELATIVE IMPRECISION IN FAST TABLE ENERGY: 8.8807e-16 AT 15.9354
+Info: RELATIVE IMPRECISION IN FAST TABLE ENERGY: 1.15453e-16 AT 15.998
 Info: ABSOLUTE IMPRECISION IN FAST TABLE FORCE: 8.47033e-22 AT 15.998
-Info: RELATIVE IMPRECISION IN FAST TABLE FORCE: 2.88605e-15 AT 15.9354
+Info: RELATIVE IMPRECISION IN FAST TABLE FORCE: 1.14081e-16 AT 15.998
 Info: INCONSISTENCY IN FAST TABLE ENERGY VS FORCE: 0.000290362 AT 0.251946
-Info: ABSOLUTE IMPRECISION IN VDWA TABLE ENERGY: 2.46519e-32 AT 15.8094
-Info: RELATIVE IMPRECISION IN VDWA TABLE ENERGY: 4.58389e-15 AT 15.9354
-Info: ABSOLUTE IMPRECISION IN VDWA TABLE FORCE: 2.88889e-33 AT 15.9354
-Info: RELATIVE IMPRECISION IN VDWA TABLE FORCE: 2.08346e-15 AT 15.9354
 Info: INCONSISTENCY IN VDWA TABLE ENERGY VS FORCE: 0.0167626 AT 14.9979
-Info: ABSOLUTE IMPRECISION IN VDWB TABLE ENERGY: 2.38299e-26 AT 15.9354
-Info: RELATIVE IMPRECISION IN VDWB TABLE ENERGY: 3.28058e-14 AT 15.9354
-Info: ABSOLUTE IMPRECISION IN VDWB TABLE FORCE: 4.20053e-26 AT 15.9354
-Info: RELATIVE IMPRECISION IN VDWB TABLE FORCE: 1.80765e-15 AT 15.9354
 Info: INCONSISTENCY IN VDWB TABLE ENERGY VS FORCE: 0.0678971 AT 14.9979
-Info: Startup phase 2 took 0.00200009 s, 7.21875 MB of memory in use
-Info: Startup phase 3 took 0 s, 7.21875 MB of memory in use
-Info: Startup phase 4 took 0 s, 7.21875 MB of memory in use
-Info: Startup phase 5 took 0.000999928 s, 7.21875 MB of memory in use
+Info: Startup phase 2 took 0.000928435 s, 0 MB of memory in use
+Info: Startup phase 3 took 1.465e-05 s, 0 MB of memory in use
+Info: Startup phase 4 took 1.0314e-05 s, 0 MB of memory in use
+Info: Startup phase 5 took 9.546e-06 s, 0 MB of memory in use
 Info: ORIGINAL ATOMS MINMAX IS -19.07 10.263 65.976  -14.499 13.692 72.499
 Info: ADJUSTED ATOMS MINMAX IS -19.4495 10.2596 66.0225  -14.2445 13.7034 72.0775
 Info: PATCH GRID IS 1 BY 1 BY 1
 Info: PATCH GRID IS 1-AWAY BY 1-AWAY BY 1-AWAY
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 Info: LARGEST PATCH (0) HAS 17 ATOMS
 Info: TORUS A SIZE 1 USING 0
 Info: TORUS B SIZE 1 USING 0
 Info: TORUS C SIZE 1 USING 0
 Info: TORUS MINIMAL MESH SIZE IS 1 BY 1 BY 1
 Info: Placed 100% of base nodes on same physical node as patch
-Info: Startup phase 6 took 0 s, 7.21875 MB of memory in use
-Info: Startup phase 7 took 0 s, 7.21875 MB of memory in use
-Info: Startup phase 8 took 0 s, 7.21875 MB of memory in use
-Info: Startup phase 9 took 0 s, 7.21875 MB of memory in use
-Info: Startup phase 10 took 0 s, 7.21875 MB of memory in use
-Info: Startup phase 11 took 0 s, 7.21875 MB of memory in use
+Info: Startup phase 6 took 5.3307e-05 s, 0 MB of memory in use
+Info: Startup phase 7 took 1.4231e-05 s, 0 MB of memory in use
+Info: Updated CUDA force table with 4096 elements.
+Info: Updated CUDA LJ table with 227 x 227 elements.
+Info: Startup phase 8 took 0.00157127 s, 0 MB of memory in use
+Info: Startup phase 9 took 2.2675e-05 s, 0 MB of memory in use
+Info: Startup phase 10 took 1.0989e-05 s, 0 MB of memory in use
+Info: Startup phase 11 took 1.0085e-05 s, 0 MB of memory in use
 LDB: Central LB being created...
-Info: Startup phase 12 took 0 s, 7.21875 MB of memory in use
-Info: CREATING 12 COMPUTE OBJECTS
-Info: Startup phase 13 took 0 s, 7.23047 MB of memory in use
-Info: useSync: 0 useProxySync: 0
-Info: Startup phase 14 took 0 s, 7.23047 MB of memory in use
-Info: Startup phase 15 took 0 s, 7.51172 MB of memory in use
-Info: Finished startup at 0.123 s, 7.51172 MB of memory in use
+Info: Startup phase 12 took 1.638e-05 s, 0 MB of memory in use
+Info: CREATING 16 COMPUTE OBJECTS
+Info: Found 17 unique exclusion lists needing 36 bytes
+Info: Startup phase 13 took 0.00565813 s, 0 MB of memory in use
+Info: Startup phase 14 took 2.8931e-05 s, 0 MB of memory in use
+Info: Startup phase 15 took 1.6059e-05 s, 0 MB of memory in use
+Info: Finished startup at 0.174165 s, 0 MB of memory in use
 
 dcdplugin) detected standard 32-bit DCD file of native endianness
 dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
@@ -190,219 +182,197 @@ Info: Coordinate file res.dcd opened for reading.
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 0
 TCL: Running for 0 steps
+Warning: Energy evaluation is expensive, increase computeEnergies to improve performance.
+Warning: If computeEnergies is not defined, its value defaults to the same as outputEnergies, and increasing outputEnergies would be helpful to improve the performance.
 ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG
 
-ENERGY:       0         1.6660         7.8357        10.9732         0.0000             18.0520         0.1557         0.0000         0.0000         7.8279             46.5105       187.5799        38.6826        46.5484       187.5799
+ENERGY:       0         1.6659         7.8358        10.9732         0.0000             18.0548         0.1558         0.0000         0.0000        16.4227             55.1082       324.0902        38.6854        55.1414       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 1
 TCL: Running for 0 steps
-ENERGY:       1         3.2640         5.7100        10.8958         0.0000             16.4035         1.2399         0.0000         0.0000         7.5200             45.0331       180.2013        37.5131        45.1212       180.2013
+ENERGY:       1         3.2640         5.7100        10.8958         0.0000             16.4062         1.2399         0.0000         0.0000        16.4227             53.9387       324.0902        37.5160        54.0146       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 2
 TCL: Running for 0 steps
-ENERGY:       2         1.7867         4.3565         9.3379         0.0000             19.3402        -0.7086         0.0000         0.0000         7.7605             41.8732       185.9636        34.1127        41.9359       185.9636
+ENERGY:       2         1.7867         4.3565         9.3379         0.0000             19.3429        -0.7086         0.0000         0.0000        16.4227             50.5381       324.0902        34.1154        50.5928       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 3
 TCL: Running for 0 steps
-ENERGY:       3         5.3084         7.2514         9.3010         0.0000             16.8453        -1.3465         0.0000         0.0000         7.8742             45.2339       188.6904        37.3596        45.3015       188.6904
+ENERGY:       3         5.3086         7.2514         9.3010         0.0000             16.8480        -1.3464         0.0000         0.0000        16.4227             53.7854       324.0902        37.3626        53.8301       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 4
 TCL: Running for 0 steps
-ENERGY:       4         0.9257         8.1802         8.9213         0.0000             19.3540         0.1609         0.0000         0.0000         7.8260             45.3682       187.5337        37.5422        45.4003       187.5337
+ENERGY:       4         0.9257         8.1803         8.9213         0.0000             19.3563         0.1609         0.0000         0.0000        16.4227             53.9672       324.0902        37.5445        53.9974       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 5
 TCL: Running for 0 steps
-ENERGY:       5         7.4450         8.6376         9.0006         0.0000             17.8286        -0.1722         0.0000         0.0000         7.4166             50.1562       177.7233        42.7396        50.1794       177.7233
+ENERGY:       5         7.4449         8.6375         9.0006         0.0000             17.8315        -0.1721         0.0000         0.0000        16.4227             59.1652       324.0902        42.7424        59.1683       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 6
 TCL: Running for 0 steps
-ENERGY:       6         3.1315         6.7626        10.1622         0.0000             18.7182        -1.1527         0.0000         0.0000         7.4152             45.0372       177.6913        37.6219        45.0752       177.6913
+ENERGY:       6         3.1315         6.7626        10.1622         0.0000             18.7205        -1.1527         0.0000         0.0000        16.4227             54.0469       324.0902        37.6242        54.0758       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 7
 TCL: Running for 0 steps
-ENERGY:       7         1.4037        11.1183         9.1500         0.0000             18.2695         0.3395         0.0000         0.0000         7.2083             47.4892       172.7325        40.2809        47.5056       172.7325
+ENERGY:       7         1.4036        11.1184         9.1500         0.0000             18.2737         0.3395         0.0000         0.0000        16.4227             56.7079       324.0902        40.2851        56.7070       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 8
 TCL: Running for 0 steps
-ENERGY:       8         4.0188        10.8344         6.4569         0.0000             17.0760        -0.8387         0.0000         0.0000         7.6885             45.2359       184.2397        37.5474        45.2680       184.2397
+ENERGY:       8         4.0183        10.8345         6.4569         0.0000             17.0796        -0.8387         0.0000         0.0000        16.4227             53.9734       324.0902        37.5507        53.9872       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 9
 TCL: Running for 0 steps
-ENERGY:       9         2.5927         8.2774         9.0785         0.0000             16.5273        -0.4329         0.0000         0.0000         7.7794             43.8223       186.4174        36.0430        43.8797       186.4174
+ENERGY:       9         2.5926         8.2775         9.0784         0.0000             16.5298        -0.4328         0.0000         0.0000        16.4227             52.4683       324.0902        36.0455        52.4976       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 10
 TCL: Running for 0 steps
 ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG
 
-ENERGY:      10         3.7665         6.0204         8.2297         0.0000             18.4582        -0.9309         0.0000         0.0000         7.6585             43.2024       183.5211        35.5439        43.2569       183.5211
+ENERGY:      10         3.7662         6.0202         8.2297         0.0000             18.4609        -0.9309         0.0000         0.0000        16.4227             51.9688       324.0902        35.5461        52.0106       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 11
 TCL: Running for 0 steps
-ENERGY:      11         0.8187         5.5960         8.6395         0.0000             19.4637        -0.0081         0.0000         0.0000         7.5435             42.0534       180.7642        34.5099        42.0976       180.7642
+ENERGY:      11         0.8187         5.5961         8.6395         0.0000             19.4664        -0.0081         0.0000         0.0000        16.4227             50.9354       324.0902        34.5126        50.9840       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 12
 TCL: Running for 0 steps
-ENERGY:      12         3.0162         7.6219         7.8200         0.0000             17.9950        -0.1502         0.0000         0.0000         7.1486             43.4514       171.3012        36.3028        43.5112       171.3012
+ENERGY:      12         3.0163         7.6219         7.8201         0.0000             17.9985        -0.1502         0.0000         0.0000        16.4227             52.7293       324.0902        36.3065        52.7735       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 13
 TCL: Running for 0 steps
-ENERGY:      13         3.0071         6.7273         8.0595         0.0000             16.6021        -0.8737         0.0000         0.0000         7.6558             41.1781       183.4567        33.5223        41.2676       183.4567
+ENERGY:      13         3.0072         6.7275         8.0595         0.0000             16.6054        -0.8736         0.0000         0.0000        16.4227             49.9486       324.0902        33.5259        50.0166       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 14
 TCL: Running for 0 steps
-ENERGY:      14         6.4467        12.3973         7.2317         0.0000             15.3600        -0.0911         0.0000         0.0000         7.0768             48.4215       169.5811        41.3447        48.4128       169.5811
+ENERGY:      14         6.4467        12.3974         7.2317         0.0000             15.3632        -0.0911         0.0000         0.0000        16.4227             57.7706       324.0902        41.3479        57.7458       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 15
 TCL: Running for 0 steps
-ENERGY:      15         1.3539         6.6790         7.9122         0.0000             18.1978        -0.0360         0.0000         0.0000         7.3862             41.4932       176.9949        34.1070        41.5272       176.9949
+ENERGY:      15         1.3539         6.6791         7.9122         0.0000             18.2002        -0.0360         0.0000         0.0000        16.4227             50.5322       324.0902        34.1095        50.5688       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 16
 TCL: Running for 0 steps
-ENERGY:      16         3.3294         9.5826        10.6113         0.0000             18.0753        -0.0060         0.0000         0.0000         7.8785             49.4712       188.7935        41.5927        49.4809       188.7935
+ENERGY:      16         3.3294         9.5827        10.6113         0.0000             18.0780        -0.0060         0.0000         0.0000        16.4227             58.0181       324.0902        41.5954        58.0221       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 17
 TCL: Running for 0 steps
-ENERGY:      17         3.8315         9.8880         7.1709         0.0000             16.8100        -0.2980         0.0000         0.0000         6.8040             44.2063       163.0433        37.4024        44.2499       163.0433
+ENERGY:      17         3.8315         9.8881         7.1709         0.0000             16.8133        -0.2979         0.0000         0.0000        16.4227             53.8285       324.0902        37.4058        53.8567       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 18
 TCL: Running for 0 steps
-ENERGY:      18         1.1642        11.1885         7.0960         0.0000             19.8656        -0.6584         0.0000         0.0000         7.6206             46.2765       182.6119        38.6559        46.2618       182.6119
+ENERGY:      18         1.1645        11.1884         7.0960         0.0000             19.8685        -0.6584         0.0000         0.0000        16.4227             55.0818       324.0902        38.6591        55.0801       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 19
 TCL: Running for 0 steps
-ENERGY:      19         2.7522         5.8591         9.0696         0.0000             17.5187        -0.4105         0.0000         0.0000         8.0497             42.8388       192.8952        34.7891        42.9072       192.8952
+ENERGY:      19         2.7521         5.8590         9.0696         0.0000             17.5212        -0.4105         0.0000         0.0000        16.4227             51.2141       324.0902        34.7913        51.2721       324.0902
 
-LDB: ============= START OF LOAD BALANCING ============== 0.13
-LDB: ============== END OF LOAD BALANCING =============== 0.13
-Info: useSync: 0 useProxySync: 0
-LDB: =============== DONE WITH MIGRATION ================ 0.13
+LDB: ============= START OF LOAD BALANCING ============== 0.188178
+LDB: ============== END OF LOAD BALANCING =============== 0.188189
+LDB: =============== DONE WITH MIGRATION ================ 0.188198
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 20
 TCL: Running for 0 steps
 ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG
 
-ENERGY:      20         1.2090         7.2631         8.9476         0.0000             17.9022         0.9656         0.0000         0.0000         8.0596             44.3471       193.1321        36.2875        44.3786       193.1321
+ENERGY:      20         1.2090         7.2629         8.9476         0.0000             17.9046         0.9656         0.0000         0.0000        16.4227             52.7125       324.0902        36.2897        52.7424       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 21
 TCL: Running for 0 steps
-ENERGY:      21         3.9572        12.1843         9.2549         0.0000             15.1290        -0.3599         0.0000         0.0000         7.0901             47.2556       169.9007        40.1655        47.2381       169.9007
+ENERGY:      21         3.9574        12.1841         9.2549         0.0000             15.1329        -0.3599         0.0000         0.0000        16.4227             56.5921       324.0902        40.1693        56.5579       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 22
 TCL: Running for 0 steps
-ENERGY:      22         3.1757         7.7183         9.2267         0.0000             16.4205        -0.6728         0.0000         0.0000         7.3708             43.2393       176.6263        35.8685        43.3041       176.6263
+ENERGY:      22         3.1754         7.7184         9.2267         0.0000             16.4236        -0.6728         0.0000         0.0000        16.4227             52.2941       324.0902        35.8714        52.3503       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 23
 TCL: Running for 0 steps
-ENERGY:      23         2.2085        12.3223         9.4236         0.0000             16.7900        -1.0171         0.0000         0.0000         7.4835             47.2108       179.3260        39.7273        47.2301       179.3260
+ENERGY:      23         2.2085        12.3225         9.4236         0.0000             16.7937        -1.0171         0.0000         0.0000        16.4227             56.1540       324.0902        39.7312        56.1628       324.0902
 
 Info: Reading timestep from file.
 Info: Updating unit cell from timestep.
 Warning: Cell basis vectors should be specified before reading trajectory.
-Info: REMOVING COM VELOCITY -1.30413 1.20299 -0.628948
 TCL: Setting parameter firstTimestep to 24
 TCL: Running for 0 steps
-ENERGY:      24         2.4644        13.3572         9.2775         0.0000             17.4898        -1.5487         0.0000         0.0000         7.8473             48.8875       188.0454        41.0401        48.9098       188.0454
+ENERGY:      24         2.4644        13.3574         9.2775         0.0000             17.4924        -1.5487         0.0000         0.0000        16.4227             57.4659       324.0902        41.0431        57.4698       324.0902
 
 Info: Closing coordinate file.
 WRITING EXTENDED SYSTEM TO OUTPUT FILE AT STEP 24
 WRITING COORDINATES TO OUTPUT FILE AT STEP 24
-The last position output (seq=-2) takes 0.001 seconds, 7.574 MB of memory in use
+The last position output (seq=-2) takes 0.000 seconds, 0.000 MB of memory in use
 WRITING VELOCITIES TO OUTPUT FILE AT STEP 24
-The last velocity output (seq=-2) takes 0.001 seconds, 7.574 MB of memory in use
+The last velocity output (seq=-2) takes 0.000 seconds, 0.000 MB of memory in use
 ====================================================
 
-WallClock: 0.135000  CPUTime: 0.135000  Memory: 7.574219 MB
+WallClock: 0.191070  CPUTime: 0.173976  Memory: 0.000000 MB
+[Partition 0][Node 0] End of program
+Process completed successfully with exit code: 0

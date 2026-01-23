@@ -1,0 +1,27 @@
+source "E:/workdir/MolCalSys/ideamac/out/production/MolAICal1.40//scripts/mm_gbpb_sa.tcl"
+mmgbpbsa \
+-system_topology       mpro.psf \
+-system_coords         mpro.pdb \
+-trajectory_files      mpro.dcd \
+-debug     0 \
+-output_filename       mmpbsa_delphi.log \
+-force_parameters       par_all36_prot.prm \
+-force_parameters       par_all36_cgenff.prm \
+-force_parameters       ligand.str \
+-force_parameters       toppar_water_ions.str \
+-complex_selection       "segname A C" \
+-receptor_selection       "segname A" \
+-ligand_selection       "segname C" \
+-first_frame     0 \
+-last_frame      -1 \
+-frame_stride    1 \
+-mm_dielectric        1.0  \
+-poisson_boltzmann        1 \
+-pb_radii_type    mparse \
+-pb_boundary_flag   mdh \
+-pb_charge_method   spl2 \
+-surface_accessibility        1 \
+-sa_radii_type    mparse \
+-sa_gamma         0.0072 \
+-sa_beta          0.00
+quit

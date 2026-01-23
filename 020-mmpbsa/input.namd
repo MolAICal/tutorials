@@ -1,0 +1,27 @@
+coordinates mpro_tmp_mmgbpbsa_complex.pdb
+structure mpro_tmp_mmgbpbsa_complex.psf
+paraTypeCharmm on
+parameters  par_all36_prot.prm
+parameters  par_all36_cgenff.prm
+parameters  ligand.str
+parameters  toppar_water_ions.str
+mergeCrossterms yes
+seed               12345
+numsteps 1
+exclude scaled1-4
+outputname mpro_com_mm_tmp
+temperature 300.0
+COMmotion yes
+cutoff 16
+dielectric 1
+switching on
+switchdist 15.
+GBIS off
+set ts 0
+coorfile open dcd mpro_tmp_mmgbpbsa_complex.dcd
+while { ![coorfile read] } {
+firstTimestep $ts
+run 0
+incr ts
+}
+coorfile close

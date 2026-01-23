@@ -1,0 +1,12 @@
+receptor = R_protein.pdbqt
+
+cpu = 1
+center_x = 96.38
+center_y = 109.96
+center_z = 159.07
+
+size_x = 45
+size_y = 45
+size_z = 45
+
+num_modes = 1

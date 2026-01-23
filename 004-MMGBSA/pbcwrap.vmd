@@ -1,0 +1,7 @@
+package require pbctools
+mol new mpro.psf
+mol addfile mpro.dcd waitfor all
+pbc wrap -centersel protein -center com -compound chain -all
+set all [atomselect top all]
+animate write dcd mpro.dcd sel $all beg 0 end 24 waitfor all
+quit

@@ -1,0 +1,880 @@
+## The 1th molecule ##
+1: Anticommensal Effect on Human Gut Microbiota
+Predicted Confidence Credibility
+lig1 Negative 0.80 0.32
+2: Blood–brain-barrier penetration
+Predicted Confidence Credibility
+lig1 Yes 0.92 0.40
+3: Oral Bioavailability
+Predicted Confidence Credibility
+lig1 High 0.95 0.73
+4: AMES Mutagenecity
+Predicted Confidence Credibility
+lig1 active 0.87 0.26
+5: Metabolic Stability
+Predicted Confidence Credibility
+lig1 Moderate 0.92 0.51
+6: Rat Acute LD50
+Predicted Confidence Credibility
+lig1 EPA3 0.79 0.51
+7: Drug-Induced Liver Inhibition
+Predicted Confidence Credibility
+lig1 P 0.82 0.31
+8: HERG Cardiotoxicity
+Predicted Confidence Credibility
+lig1 N 0.95 0.54
+9: Haemolytic Toxicity
+Predicted Confidence Credibility
+lig1 Positive 0.87 0.30
+10: Myelotoxicity
+Predicted Confidence Credibility
+lig1 Negative 0.91 0.57
+11: Urinary Toxicity
+Predicted Confidence Credibility
+lig1 Negative 1.00 0.39
+12: Human Intestinal Absorption
+Predicted Confidence Credibility
+lig1 P 0.83 0.18
+13: Hepatic Steatosis
+Predicted Confidence Credibility
+lig1 Negative 0.90 0.69
+14: Breast Cancer Resistance Protein Inhibition
+Predicted Confidence Credibility
+lig1 NonInhibitor 1.00 0.96
+15: Drug-Induced Choleostasis
+Predicted Confidence Credibility
+lig1 Negative 0.67 0.43
+16: Human multidrug and toxin extrusion Inhibition
+Predicted Confidence Credibility
+lig1 NonInhibitor 0.76 0.62
+17: Toxic Myopathy
+Predicted Confidence Credibility
+lig1 Negative 0.92 0.62
+18: Phospholipidosis
+Predicted Confidence Credibility
+lig1 Negative 0.99 0.78
+19: Human Bile Salt Export Pump Inhibition
+Predicted Confidence Credibility
+lig1 Inactive 0.93 0.27
+20: Organic anion transporting polypeptide 1B1 binding
+Predicted Confidence Credibility
+lig1 No 1.00 0.82
+21: Organic anion transporting polypeptide 1B3 binding
+Predicted Confidence Credibility
+lig1 No 0.96 0.61
+22: Organic anion transporting polypeptide 2B1 binding
+Predicted Confidence Credibility
+lig1 No 0.84 0.72
+23: Phototoxicity human
+Predicted Confidence Credibility
+lig1 no 0.72 0.33
+24: Phototoxicity in vitro
+Predicted Confidence Credibility
+lig1 positive 0.97 0.84
+25: Respiratory Toxicity
+Predicted Confidence Credibility
+lig1 No 0.89 0.32
+26: P-glycoprotein Inhibition
+Predicted Confidence Credibility
+lig1 N 0.89 0.26
+27: P-glycoprotein Substrate
+Predicted Confidence Credibility
+lig1 Negative 0.99 0.72
+28: Mitochondrial Toxicity
+Predicted Confidence Credibility
+lig1 Active 0.90 0.28
+29: Carcinogenecity
+Predicted Confidence Credibility
+lig1 NonCarcinogen 0.78 0.45
+30: DMSO Solubility
+Predicted Confidence Credibility
+lig1 Insoluble 0.98 0.86
+31: Human Liver Microsomal Stability
+Predicted Confidence Credibility
+lig1 Negative 0.88 0.40
+32: Human Plasma Protein Binding
+Predicted Confidence Credibility
+lig1 HIGH 0.82 0.19
+33: hERG Liability
+Predicted Confidence Credibility
+lig1 NonBlocker 0.93 0.39
+34: Organic Cation Transporter 2 Inhibition
+Predicted Confidence Credibility
+lig1 Inhibitor 0.71 0.46
+35: Drug-induced Ototoxicity
+Predicted Confidence Credibility
+lig1 No 0.82 0.50
+36: Rhabdomyolysis
+Predicted Confidence Credibility
+lig1 Yes 0.76 0.30
+37: T1/2 Human
+Predicted Confidence Credibility
+lig1 MEDIUM 0.78 0.29
+38: T1/2 Mouse
+Predicted Confidence Credibility
+lig1 LOW 0.76 0.30
+39: T1/2 Rat
+Predicted Confidence Credibility
+lig1 LOW 0.72 0.43
+40: Cytotoxicity HepG2 cell line
+Predicted Confidence Credibility
+lig1 N 0.87 0.37
+41: Cytotoxicity NIH 3T3 cell line
+Predicted Confidence Credibility
+lig1 Inactive 0.98 0.63
+42: Cytotoxicity HEK 293 cell line
+Predicted Confidence Credibility
+lig1 Inactive 0.77 0.25
+43: Cytotoxicity CRL-7250 cell line
+Predicted Confidence Credibility
+lig1 Inactive 0.96 0.73
+44: Cytotoxicity HaCat cell line
+Predicted Confidence Credibility
+lig1 Inactive 0.88 0.59
+45: CYP450 1A2 Inhibition
+Predicted Confidence Credibility
+lig1 Active 0.98 0.49
+46: CYP450 2C19 Inhibition
+Predicted Confidence Credibility
+lig1 Inactive 0.95 0.47
+47: CYP450 2C9 Inhibition
+Predicted Confidence Credibility
+lig1 Inactive 0.90 0.36
+48: CYP450 2D6 Inhibition
+Predicted Confidence Credibility
+lig1 Inactive 0.99 0.81
+49: CYP450 3A4 Inhibition
+Predicted Confidence Credibility
+lig1 Inactive 0.99 0.81
+50: pKa dissociation constant
+Predicted quantile_0.025 quantile_0.975
+lig1 5.19 -1.60 13.06
+51: logD Distribution coefficient (pH 7.4)
+Predicted quantile_0.025 quantile_0.975
+lig1  1.352  0.60 3.80
+52: logS
+Predicted quantile_0.025 quantile_0.975
+lig1 -2.95 -6.21 -1.588
+53: Drug affinity to human serum albumin
+Predicted quantile_0.025 quantile_0.975
+lig1 -0.328 -1.39 0.93
+54: MDCK permeability
+Predicted quantile_0.025 quantile_0.975
+lig1 -4.41 -5.89 -2.89
+55: 50 percent hemolytic dose
+Predicted quantile_0.025 quantile_0.975
+lig1 2.59 1.37 4.76
+56: Skin penetration
+Predicted quantile_0.025 quantile_0.975
+lig1 -5.78 -7.45 -4.49
+57: CYP450 2C8 Inhibition
+Predicted Confidence Credibility
+lig1 noninhibitor 0.91 0.37
+58: Aqueous Solubility (in phosphate saline buffer)
+Predicted Confidence Credibility
+lig1 Active 0.90 0.36
+
+## The 2th molecule ##
+1: Anticommensal Effect on Human Gut Microbiota
+Predicted Confidence Credibility
+lig2 Negative 0.86 0.40
+2: Blood–brain-barrier penetration
+Predicted Confidence Credibility
+lig2 Yes 0.89 0.21
+3: Oral Bioavailability
+Predicted Confidence Credibility
+lig2 Low 0.95 0.65
+4: AMES Mutagenecity
+Predicted Confidence Credibility
+lig2 inactive 0.92 0.48
+5: Metabolic Stability
+Predicted Confidence Credibility
+lig2 Stable 0.88 0.37
+6: Rat Acute LD50
+Predicted Confidence Credibility
+lig2 EPA1 0.79 0.57
+7: Drug-Induced Liver Inhibition
+Predicted Confidence Credibility
+lig2 P 0.80 0.29
+8: HERG Cardiotoxicity
+Predicted Confidence Credibility
+lig2 N 0.90 0.33
+9: Haemolytic Toxicity
+Predicted Confidence Credibility
+lig2 Positive 0.91 0.26
+10: Myelotoxicity
+Predicted Confidence Credibility
+lig2 Negative 0.81 0.35
+11: Urinary Toxicity
+Predicted Confidence Credibility
+lig2 Positive 0.71 0.35
+12: Human Intestinal Absorption
+Predicted Confidence Credibility
+lig2 P 0.86 0.19
+13: Hepatic Steatosis
+Predicted Confidence Credibility
+lig2 Negative 0.65 0.39
+14: Breast Cancer Resistance Protein Inhibition
+Predicted Confidence Credibility
+lig2 NonInhibitor 0.94 0.17
+15: Drug-Induced Choleostasis
+Predicted Confidence Credibility
+lig2 Negative 0.90 0.69
+16: Human multidrug and toxin extrusion Inhibition
+Predicted Confidence Credibility
+lig2 NonInhibitor 0.82 0.78
+17: Toxic Myopathy
+Predicted Confidence Credibility
+lig2 Positive 1.00 0.81
+18: Phospholipidosis
+Predicted Confidence Credibility
+lig2 Negative 0.95 0.61
+19: Human Bile Salt Export Pump Inhibition
+Predicted Confidence Credibility
+lig2 Inactive 0.88 0.21
+20: Organic anion transporting polypeptide 1B1 binding
+Predicted Confidence Credibility
+lig2 No 0.85 0.38
+21: Organic anion transporting polypeptide 1B3 binding
+Predicted Confidence Credibility
+lig2 No 0.87 0.29
+22: Organic anion transporting polypeptide 2B1 binding
+Predicted Confidence Credibility
+lig2 No 0.89 0.92
+23: Phototoxicity human
+Predicted Confidence Credibility
+lig2 no 0.83 0.43
+24: Phototoxicity in vitro
+Predicted Confidence Credibility
+lig2 negative 0.80 0.58
+25: Respiratory Toxicity
+Predicted Confidence Credibility
+lig2 No 0.94 0.38
+26: P-glycoprotein Inhibition
+Predicted Confidence Credibility
+lig2 N 0.83 0.17
+27: P-glycoprotein Substrate
+Predicted Confidence Credibility
+lig2 Negative 1.00 0.90
+28: Mitochondrial Toxicity
+Predicted Confidence Credibility
+lig2 Active 0.96 0.51
+29: Carcinogenecity
+Predicted Confidence Credibility
+lig2 NonCarcinogen 0.78 0.45
+30: DMSO Solubility
+Predicted Confidence Credibility
+lig2 Soluble 0.82 0.40
+31: Human Liver Microsomal Stability
+Predicted Confidence Credibility
+lig2 Negative 0.91 0.49
+32: Human Plasma Protein Binding
+Predicted Confidence Credibility
+lig2 MODERATE 0.74 0.32
+33: hERG Liability
+Predicted Confidence Credibility
+lig2 NonBlocker 0.86 0.28
+34: Organic Cation Transporter 2 Inhibition
+Predicted Confidence Credibility
+lig2 Noninhibitor 0.84 0.63
+35: Drug-induced Ototoxicity
+Predicted Confidence Credibility
+lig2 No 0.78 0.47
+36: Rhabdomyolysis
+Predicted Confidence Credibility
+lig2 No 0.77 0.28
+37: T1/2 Human
+Predicted Confidence Credibility
+lig2 MEDIUM 0.75 0.29
+38: T1/2 Mouse
+Predicted Confidence Credibility
+lig2 LOW 0.70 0.34
+39: T1/2 Rat
+Predicted Confidence Credibility
+lig2 LOW 0.72 0.39
+40: Cytotoxicity HepG2 cell line
+Predicted Confidence Credibility
+lig2 N 0.95 0.60
+41: Cytotoxicity NIH 3T3 cell line
+Predicted Confidence Credibility
+lig2 Inactive 0.96 0.60
+42: Cytotoxicity HEK 293 cell line
+Predicted Confidence Credibility
+lig2 Inactive 0.79 0.26
+43: Cytotoxicity CRL-7250 cell line
+Predicted Confidence Credibility
+lig2 Inactive 1.00 0.95
+44: Cytotoxicity HaCat cell line
+Predicted Confidence Credibility
+lig2 Inactive 0.97 0.91
+45: CYP450 1A2 Inhibition
+Predicted Confidence Credibility
+lig2 Active 0.97 0.40
+46: CYP450 2C19 Inhibition
+Predicted Confidence Credibility
+lig2 Inactive 0.99 0.73
+47: CYP450 2C9 Inhibition
+Predicted Confidence Credibility
+lig2 Inactive 0.91 0.38
+48: CYP450 2D6 Inhibition
+Predicted Confidence Credibility
+lig2 Inactive 0.90 0.47
+49: CYP450 3A4 Inhibition
+Predicted Confidence Credibility
+lig2 Inactive 0.90 0.32
+50: pKa dissociation constant
+Predicted quantile_0.025 quantile_0.975
+lig2 7.84  4.89 11.49
+51: logD Distribution coefficient (pH 7.4)
+Predicted quantile_0.025 quantile_0.975
+lig2 -0.092 -1.79 3.37
+52: logS
+Predicted quantile_0.025 quantile_0.975
+lig2 -1.55 -3.99  0.057
+53: Drug affinity to human serum albumin
+Predicted quantile_0.025 quantile_0.975
+lig2  0.094 -1.11 1.17
+54: MDCK permeability
+Predicted quantile_0.025 quantile_0.975
+lig2 -4.86 -6.08 -3.13
+55: 50 percent hemolytic dose
+Predicted quantile_0.025 quantile_0.975
+lig2 2.45 1.25 4.76
+56: Skin penetration
+Predicted quantile_0.025 quantile_0.975
+lig2 -5.27 -7.45 -4.38
+57: CYP450 2C8 Inhibition
+Predicted Confidence Credibility
+lig2 noninhibitor 0.91 0.35
+58: Aqueous Solubility (in phosphate saline buffer)
+Predicted Confidence Credibility
+lig2 Active 0.86 0.30
+
+## The 3th molecule ##
+1: Anticommensal Effect on Human Gut Microbiota
+Predicted Confidence Credibility
+lig5 Negative 0.91 0.45
+2: Blood–brain-barrier penetration
+Predicted Confidence Credibility
+lig5 Yes 0.90 0.21
+3: Oral Bioavailability
+Predicted Confidence Credibility
+lig5 High 0.75 0.31
+4: AMES Mutagenecity
+Predicted Confidence Credibility
+lig5 inactive 0.92 0.47
+5: Metabolic Stability
+Predicted Confidence Credibility
+lig5 Stable 0.95 0.52
+6: Rat Acute LD50
+Predicted Confidence Credibility
+lig5 EPA3 0.77 0.39
+7: Drug-Induced Liver Inhibition
+Predicted Confidence Credibility
+lig5 P 0.85 0.34
+8: HERG Cardiotoxicity
+Predicted Confidence Credibility
+lig5 N 0.97 0.70
+9: Haemolytic Toxicity
+Predicted Confidence Credibility
+lig5 Positive 0.81 0.23
+10: Myelotoxicity
+Predicted Confidence Credibility
+lig5 Positive 0.95 0.78
+11: Urinary Toxicity
+Predicted Confidence Credibility
+lig5 Positive 0.71 0.35
+12: Human Intestinal Absorption
+Predicted Confidence Credibility
+lig5 P 0.83 0.20
+13: Hepatic Steatosis
+Predicted Confidence Credibility
+lig5 Negative 0.70 0.50
+14: Breast Cancer Resistance Protein Inhibition
+Predicted Confidence Credibility
+lig5 NonInhibitor 0.94 0.20
+15: Drug-Induced Choleostasis
+Predicted Confidence Credibility
+lig5 Negative 0.67 0.41
+16: Human multidrug and toxin extrusion Inhibition
+Predicted Confidence Credibility
+lig5 NonInhibitor 0.82 0.77
+17: Toxic Myopathy
+Predicted Confidence Credibility
+lig5 Negative 0.80 0.51
+18: Phospholipidosis
+Predicted Confidence Credibility
+lig5 Negative 0.98 0.74
+19: Human Bile Salt Export Pump Inhibition
+Predicted Confidence Credibility
+lig5 Inactive 1.00 0.49
+20: Organic anion transporting polypeptide 1B1 binding
+Predicted Confidence Credibility
+lig5 No 0.85 0.38
+21: Organic anion transporting polypeptide 1B3 binding
+Predicted Confidence Credibility
+lig5 No 0.93 0.38
+22: Organic anion transporting polypeptide 2B1 binding
+Predicted Confidence Credibility
+lig5 No 0.84 0.72
+23: Phototoxicity human
+Predicted Confidence Credibility
+lig5 no 0.86 0.48
+24: Phototoxicity in vitro
+Predicted Confidence Credibility
+lig5 negative 0.80 0.76
+25: Respiratory Toxicity
+Predicted Confidence Credibility
+lig5 Yes 0.90 0.39
+26: P-glycoprotein Inhibition
+Predicted Confidence Credibility
+lig5 N 0.89 0.25
+27: P-glycoprotein Substrate
+Predicted Confidence Credibility
+lig5 Negative 0.99 0.70
+28: Mitochondrial Toxicity
+Predicted Confidence Credibility
+lig5 Active 0.95 0.40
+29: Carcinogenecity
+Predicted Confidence Credibility
+lig5 NonCarcinogen 0.80 0.51
+30: DMSO Solubility
+Predicted Confidence Credibility
+lig5 Insoluble 0.96 0.74
+31: Human Liver Microsomal Stability
+Predicted Confidence Credibility
+lig5 Negative 0.82 0.30
+32: Human Plasma Protein Binding
+Predicted Confidence Credibility
+lig5 LOW 0.85 0.31
+33: hERG Liability
+Predicted Confidence Credibility
+lig5 NonBlocker 0.97 0.55
+34: Organic Cation Transporter 2 Inhibition
+Predicted Confidence Credibility
+lig5 Noninhibitor 0.88 0.68
+35: Drug-induced Ototoxicity
+Predicted Confidence Credibility
+lig5 No 0.69 0.34
+36: Rhabdomyolysis
+Predicted Confidence Credibility
+lig5 No 0.81 0.37
+37: T1/2 Human
+Predicted Confidence Credibility
+lig5 MEDIUM 0.80 0.30
+38: T1/2 Mouse
+Predicted Confidence Credibility
+lig5 LOW 0.70 0.49
+39: T1/2 Rat
+Predicted Confidence Credibility
+lig5 MEDIUM 0.66 0.61
+40: Cytotoxicity HepG2 cell line
+Predicted Confidence Credibility
+lig5 N 0.85 0.31
+41: Cytotoxicity NIH 3T3 cell line
+Predicted Confidence Credibility
+lig5 Inactive 0.89 0.41
+42: Cytotoxicity HEK 293 cell line
+Predicted Confidence Credibility
+lig5 Inactive 0.83 0.29
+43: Cytotoxicity CRL-7250 cell line
+Predicted Confidence Credibility
+lig5 Inactive 0.95 0.69
+44: Cytotoxicity HaCat cell line
+Predicted Confidence Credibility
+lig5 Inactive 0.88 0.56
+45: CYP450 1A2 Inhibition
+Predicted Confidence Credibility
+lig5 Inactive 0.98 0.49
+46: CYP450 2C19 Inhibition
+Predicted Confidence Credibility
+lig5 Inactive 0.98 0.62
+47: CYP450 2C9 Inhibition
+Predicted Confidence Credibility
+lig5 Inactive 0.96 0.59
+48: CYP450 2D6 Inhibition
+Predicted Confidence Credibility
+lig5 Inactive 0.93 0.54
+49: CYP450 3A4 Inhibition
+Predicted Confidence Credibility
+lig5 Inactive 0.99 0.80
+50: pKa dissociation constant
+Predicted quantile_0.025 quantile_0.975
+lig5 3.19  1.16  8.23
+51: logD Distribution coefficient (pH 7.4)
+Predicted quantile_0.025 quantile_0.975
+lig5  0.197 -2.20 3.39
+52: logS
+Predicted quantile_0.025 quantile_0.975
+lig5 -0.70 -3.84  0.962
+53: Drug affinity to human serum albumin
+Predicted quantile_0.025 quantile_0.975
+lig5 -0.156 -1.39 1.04
+54: MDCK permeability
+Predicted quantile_0.025 quantile_0.975
+lig5 -4.90 -6.22 -3.12
+55: 50 percent hemolytic dose
+Predicted quantile_0.025 quantile_0.975
+lig5 2.48 1.21 4.95
+56: Skin penetration
+Predicted quantile_0.025 quantile_0.975
+lig5 -6.79 -8.47 -5.00
+57: CYP450 2C8 Inhibition
+Predicted Confidence Credibility
+lig5 noninhibitor 0.97 0.52
+58: Aqueous Solubility (in phosphate saline buffer)
+Predicted Confidence Credibility
+lig5 Active 0.92 0.40
+
+## The 4th molecule ##
+1: Anticommensal Effect on Human Gut Microbiota
+Predicted Confidence Credibility
+lig6 Negative 0.99 0.80
+2: Blood–brain-barrier penetration
+Predicted Confidence Credibility
+lig6 Yes 0.85 0.19
+3: Oral Bioavailability
+Predicted Confidence Credibility
+lig6 Low 0.92 0.57
+4: AMES Mutagenecity
+Predicted Confidence Credibility
+lig6 inactive 0.96 0.64
+5: Metabolic Stability
+Predicted Confidence Credibility
+lig6 Stable 0.87 0.35
+6: Rat Acute LD50
+Predicted Confidence Credibility
+lig6 EPA3 0.71 0.33
+7: Drug-Induced Liver Inhibition
+Predicted Confidence Credibility
+lig6 N 0.91 0.40
+8: HERG Cardiotoxicity
+Predicted Confidence Credibility
+lig6 N 0.97 0.60
+9: Haemolytic Toxicity
+Predicted Confidence Credibility
+lig6 Positive 0.90 0.42
+10: Myelotoxicity
+Predicted Confidence Credibility
+lig6 Negative 0.92 0.61
+11: Urinary Toxicity
+Predicted Confidence Credibility
+lig6 Negative 0.74 0.43
+12: Human Intestinal Absorption
+Predicted Confidence Credibility
+lig6 P 0.86 0.19
+13: Hepatic Steatosis
+Predicted Confidence Credibility
+lig6 Negative 0.90 0.68
+14: Breast Cancer Resistance Protein Inhibition
+Predicted Confidence Credibility
+lig6 NonInhibitor 0.93 0.15
+15: Drug-Induced Choleostasis
+Predicted Confidence Credibility
+lig6 Positive 0.94 0.72
+16: Human multidrug and toxin extrusion Inhibition
+Predicted Confidence Credibility
+lig6 NonInhibitor 0.59 0.47
+17: Toxic Myopathy
+Predicted Confidence Credibility
+lig6 Negative 0.97 0.92
+18: Phospholipidosis
+Predicted Confidence Credibility
+lig6 Negative 0.97 0.70
+19: Human Bile Salt Export Pump Inhibition
+Predicted Confidence Credibility
+lig6 Inactive 0.88 0.23
+20: Organic anion transporting polypeptide 1B1 binding
+Predicted Confidence Credibility
+lig6 No 1.00 0.86
+21: Organic anion transporting polypeptide 1B3 binding
+Predicted Confidence Credibility
+lig6 No 0.93 0.40
+22: Organic anion transporting polypeptide 2B1 binding
+Predicted Confidence Credibility
+lig6 No 0.84 0.82
+23: Phototoxicity human
+Predicted Confidence Credibility
+lig6 no 1.00 0.92
+24: Phototoxicity in vitro
+Predicted Confidence Credibility
+lig6 negative 0.80 0.76
+25: Respiratory Toxicity
+Predicted Confidence Credibility
+lig6 Yes 0.82 0.20
+26: P-glycoprotein Inhibition
+Predicted Confidence Credibility
+lig6 P 0.91 0.26
+27: P-glycoprotein Substrate
+Predicted Confidence Credibility
+lig6 Positive 0.97 0.63
+28: Mitochondrial Toxicity
+Predicted Confidence Credibility
+lig6 Inactive 0.88 0.25
+29: Carcinogenecity
+Predicted Confidence Credibility
+lig6 NonCarcinogen 0.93 0.66
+30: DMSO Solubility
+Predicted Confidence Credibility
+lig6 Soluble 0.91 0.56
+31: Human Liver Microsomal Stability
+Predicted Confidence Credibility
+lig6 Negative 0.91 0.52
+32: Human Plasma Protein Binding
+Predicted Confidence Credibility
+lig6 HIGH 0.87 0.17
+33: hERG Liability
+Predicted Confidence Credibility
+lig6 Blocker 0.88 0.32
+34: Organic Cation Transporter 2 Inhibition
+Predicted Confidence Credibility
+lig6 Inhibitor 0.71 0.43
+35: Drug-induced Ototoxicity
+Predicted Confidence Credibility
+lig6 No 0.80 0.48
+36: Rhabdomyolysis
+Predicted Confidence Credibility
+lig6 No 0.91 0.58
+37: T1/2 Human
+Predicted Confidence Credibility
+lig6 MEDIUM 0.77 0.25
+38: T1/2 Mouse
+Predicted Confidence Credibility
+lig6 LOW 0.70 0.32
+39: T1/2 Rat
+Predicted Confidence Credibility
+lig6 LOW 0.64 0.43
+40: Cytotoxicity HepG2 cell line
+Predicted Confidence Credibility
+lig6 N 0.90 0.43
+41: Cytotoxicity NIH 3T3 cell line
+Predicted Confidence Credibility
+lig6 Inactive 0.91 0.38
+42: Cytotoxicity HEK 293 cell line
+Predicted Confidence Credibility
+lig6 Inactive 0.83 0.29
+43: Cytotoxicity CRL-7250 cell line
+Predicted Confidence Credibility
+lig6 Inactive 0.95 0.58
+44: Cytotoxicity HaCat cell line
+Predicted Confidence Credibility
+lig6 Inactive 0.84 0.46
+45: CYP450 1A2 Inhibition
+Predicted Confidence Credibility
+lig6 Inactive 1.00 0.76
+46: CYP450 2C19 Inhibition
+Predicted Confidence Credibility
+lig6 Inactive 0.99 0.72
+47: CYP450 2C9 Inhibition
+Predicted Confidence Credibility
+lig6 Inactive 0.96 0.56
+48: CYP450 2D6 Inhibition
+Predicted Confidence Credibility
+lig6 Inactive 0.95 0.62
+49: CYP450 3A4 Inhibition
+Predicted Confidence Credibility
+lig6 Inactive 0.98 0.62
+50: pKa dissociation constant
+Predicted quantile_0.025 quantile_0.975
+lig6 7.69 -1.94 11.82
+51: logD Distribution coefficient (pH 7.4)
+Predicted quantile_0.025 quantile_0.975
+lig6  1.765  0.87 6.99
+52: logS
+Predicted quantile_0.025 quantile_0.975
+lig6 -3.84 -7.32 -1.948
+53: Drug affinity to human serum albumin
+Predicted quantile_0.025 quantile_0.975
+lig6  0.407 -0.10 1.04
+54: MDCK permeability
+Predicted quantile_0.025 quantile_0.975
+lig6 -4.73 -6.32 -2.80
+55: 50 percent hemolytic dose
+Predicted quantile_0.025 quantile_0.975
+lig6 1.74 0.85 3.39
+56: Skin penetration
+Predicted quantile_0.025 quantile_0.975
+lig6 -6.50 -8.08 -5.21
+57: CYP450 2C8 Inhibition
+Predicted Confidence Credibility
+lig6 noninhibitor 0.88 0.28
+58: Aqueous Solubility (in phosphate saline buffer)
+Predicted Confidence Credibility
+lig6 Active 0.87 0.31
+
+## The 5th molecule ##
+1: Anticommensal Effect on Human Gut Microbiota
+Predicted Confidence Credibility
+lig10 Negative 0.98 0.79
+2: Blood–brain-barrier penetration
+Predicted Confidence Credibility
+lig10 Yes 0.84 0.17
+3: Oral Bioavailability
+Predicted Confidence Credibility
+lig10 High 0.81 0.42
+4: AMES Mutagenecity
+Predicted Confidence Credibility
+lig10 inactive 0.93 0.51
+5: Metabolic Stability
+Predicted Confidence Credibility
+lig10 Stable 0.84 0.26
+6: Rat Acute LD50
+Predicted Confidence Credibility
+lig10 EPA3 0.67 0.38
+7: Drug-Induced Liver Inhibition
+Predicted Confidence Credibility
+lig10 P 0.78 0.24
+8: HERG Cardiotoxicity
+Predicted Confidence Credibility
+lig10 N 0.96 0.58
+9: Haemolytic Toxicity
+Predicted Confidence Credibility
+lig10 Positive 0.81 0.20
+10: Myelotoxicity
+Predicted Confidence Credibility
+lig10 Negative 0.96 0.80
+11: Urinary Toxicity
+Predicted Confidence Credibility
+lig10 Positive 0.74 0.43
+12: Human Intestinal Absorption
+Predicted Confidence Credibility
+lig10 P 0.85 0.19
+13: Hepatic Steatosis
+Predicted Confidence Credibility
+lig10 Negative 0.70 0.57
+14: Breast Cancer Resistance Protein Inhibition
+Predicted Confidence Credibility
+lig10 NonInhibitor 0.95 0.26
+15: Drug-Induced Choleostasis
+Predicted Confidence Credibility
+lig10 Negative 0.70 0.40
+16: Human multidrug and toxin extrusion Inhibition
+Predicted Confidence Credibility
+lig10 NonInhibitor 0.95 0.82
+17: Toxic Myopathy
+Predicted Confidence Credibility
+lig10 Negative 0.93 0.72
+18: Phospholipidosis
+Predicted Confidence Credibility
+lig10 Negative 0.82 0.29
+19: Human Bile Salt Export Pump Inhibition
+Predicted Confidence Credibility
+lig10 Active 0.99 0.50
+20: Organic anion transporting polypeptide 1B1 binding
+Predicted Confidence Credibility
+lig10 Yes 0.85 0.29
+21: Organic anion transporting polypeptide 1B3 binding
+Predicted Confidence Credibility
+lig10 No 0.96 0.52
+22: Organic anion transporting polypeptide 2B1 binding
+Predicted Confidence Credibility
+lig10 No 0.79 0.42
+23: Phototoxicity human
+Predicted Confidence Credibility
+lig10 no 0.99 0.81
+24: Phototoxicity in vitro
+Predicted Confidence Credibility
+lig10 negative 0.89 0.85
+25: Respiratory Toxicity
+Predicted Confidence Credibility
+lig10 Yes 0.86 0.22
+26: P-glycoprotein Inhibition
+Predicted Confidence Credibility
+lig10 P 0.96 0.45
+27: P-glycoprotein Substrate
+Predicted Confidence Credibility
+lig10 Negative 0.90 0.32
+28: Mitochondrial Toxicity
+Predicted Confidence Credibility
+lig10 Inactive 0.95 0.38
+29: Carcinogenecity
+Predicted Confidence Credibility
+lig10 NonCarcinogen 0.73 0.35
+30: DMSO Solubility
+Predicted Confidence Credibility
+lig10 Soluble 0.78 0.33
+31: Human Liver Microsomal Stability
+Predicted Confidence Credibility
+lig10 Negative 0.81 0.28
+32: Human Plasma Protein Binding
+Predicted Confidence Credibility
+lig10 HIGH 0.84 0.20
+33: hERG Liability
+Predicted Confidence Credibility
+lig10 NonBlocker 0.82 0.23
+34: Organic Cation Transporter 2 Inhibition
+Predicted Confidence Credibility
+lig10 Inhibitor 0.90 0.61
+35: Drug-induced Ototoxicity
+Predicted Confidence Credibility
+lig10 No 0.69 0.33
+36: Rhabdomyolysis
+Predicted Confidence Credibility
+lig10 Yes 0.77 0.28
+37: T1/2 Human
+Predicted Confidence Credibility
+lig10 MEDIUM 0.75 0.27
+38: T1/2 Mouse
+Predicted Confidence Credibility
+lig10 MEDIUM 0.70 0.34
+39: T1/2 Rat
+Predicted Confidence Credibility
+lig10 LOW 0.62 0.43
+40: Cytotoxicity HepG2 cell line
+Predicted Confidence Credibility
+lig10 N 0.81 0.26
+41: Cytotoxicity NIH 3T3 cell line
+Predicted Confidence Credibility
+lig10 Inactive 0.89 0.33
+42: Cytotoxicity HEK 293 cell line
+Predicted Confidence Credibility
+lig10 Inactive 0.81 0.27
+43: Cytotoxicity CRL-7250 cell line
+Predicted Confidence Credibility
+lig10 Inactive 0.88 0.31
+44: Cytotoxicity HaCat cell line
+Predicted Confidence Credibility
+lig10 Inactive 0.82 0.31
+45: CYP450 1A2 Inhibition
+Predicted Confidence Credibility
+lig10 Inactive 0.99 0.64
+46: CYP450 2C19 Inhibition
+Predicted Confidence Credibility
+lig10 Inactive 0.97 0.54
+47: CYP450 2C9 Inhibition
+Predicted Confidence Credibility
+lig10 Inactive 0.92 0.42
+48: CYP450 2D6 Inhibition
+Predicted Confidence Credibility
+lig10 Inactive 0.88 0.38
+49: CYP450 3A4 Inhibition
+Predicted Confidence Credibility
+lig10 Inactive 0.97 0.58
+50: pKa dissociation constant
+Predicted quantile_0.025 quantile_0.975
+lig10 8.61  1.34 11.90
+51: logD Distribution coefficient (pH 7.4)
+Predicted quantile_0.025 quantile_0.975
+lig10  1.851  1.47 3.82
+52: logS
+Predicted quantile_0.025 quantile_0.975
+lig10 -4.24 -6.36 -2.820
+53: Drug affinity to human serum albumin
+Predicted quantile_0.025 quantile_0.975
+lig10  0.395 -0.13 1.10
+54: MDCK permeability
+Predicted quantile_0.025 quantile_0.975
+lig10 -4.38 -6.10 -2.80
+55: 50 percent hemolytic dose
+Predicted quantile_0.025 quantile_0.975
+lig10 1.95 0.50 3.96
+56: Skin penetration
+Predicted quantile_0.025 quantile_0.975
+lig10 -6.37 -7.72 -5.18
+57: CYP450 2C8 Inhibition
+Predicted Confidence Credibility
+lig10 noninhibitor 0.84 0.19
+58: Aqueous Solubility (in phosphate saline buffer)
+Predicted Confidence Credibility
+lig10 Active 0.88 0.34
+

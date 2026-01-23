@@ -1,0 +1,12 @@
+in(modpdb4,file="mpro_lig_pb_tmp_24.pqr",format=pqr)
+TEMPERATURE=36.85000000000002
+indi=2.0
+exdi=80.0
+scale=2.0
+salt=0.15
+perfil=80.0
+prbrad=1.4
+linit=3000
+maxc=0.0001
+bndcon=4
+energy(s,g)

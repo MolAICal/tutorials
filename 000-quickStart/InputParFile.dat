@@ -72,7 +72,18 @@ rotatablebonds				20
 
 # SA
 syntheticAccessibility        off
-synAccessibilityValue         50   
+synAccessibilityValue         50
+
+# minimization
+# input_receptor_min          E:/workdir/MolAICal/example/grow/001-AIGrow/with8rec.pdb
+# min_fix_receptor            E:/workdir/MolAICal/example/grow/001-AIGrow/with8rec.pdb
+# min_fix_ligand              E:\workdir\MolAICal\example\grow\001-AIGrow\startFrag.mol2
+
+# Chimera
+# chimera_path                d:\Program Files\Chimera119\bin\chimera.exe
+
+# mce-18
+# whether_cal_mce18           on   
 
 MolsimilarPercent 			0.90
 

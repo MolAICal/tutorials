@@ -1,0 +1,18 @@
+# Generate swarms
+# 1. no memebrane
+molaical.exe -call run -c ldock -i lightdock3_setup.py $molargs1 $molargs2 --noxt --noh --now -rst $molargs3
+
+# 2. Run simulations
+molaical.exe -call run -c ldock -i lightdock3.py setup.json 100 -s fastdfire -c $molargs6 -min
+
+# 3. Generate models, Clustering, Rank, and filter
+molaical.exe -call run -c sfile -i lrank.sh 1::=$molargs1 2::=$molargs2 3::=$molargs4 4::=$molargs5 5::=$molargs6 6::=$molargs3 16::=$molargs7 
+
+# 4. Get the top candidate from the above results
+molaical.exe -call run -c sfile -i mrank.py -ft 1
+
+# 5. MM/GBSA
+molaical.exe -call run -c sfile -i mmgbpbsa_batch.sh 1::=$molargs4 2::=$molargs5 6::=cal_mmgbpbsa_cycy.sh 9::=$molargs7 10::=cyc
+
+# 6. Get the top candidate from MM/GBSA results 
+molaical.exe -call run -c sfile -i mrank.py -t 1

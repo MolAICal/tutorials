@@ -1,0 +1,27 @@
+source "E:/workdir/MolCalSys/ideamac/out/production/MolAICal1.40//scripts/mm_gbpb_sa.tcl"
+mmgbpbsa \
+-system_coords ../../complex.pdb \
+-system_topology ../../complex.psf \
+-trajectory_files       ../../complex.dcd   \
+-namd_config_file       input.namd \
+-debug     0 \
+-output_filename       mmgbsa_results.log \
+-force_parameters       ../../par_all36_prot.prm  \
+-force_parameters       ../../par_all36_cgenff.prm     \
+-force_parameters       ../../ligand.str     \
+-force_parameters       ../../toppar_water_ions.str   \
+-complex_selection       "protein and resid 165 or resname LIG" \
+-receptor_selection       "protein and resid 165"  \
+-ligand_selection       "resname LIG" \
+-pb_gb_temperature      310.0 \
+-first_frame     0 \
+-last_frame      -1 \
+-frame_stride    1 \
+-mm_dielectric        1 \
+-poisson_boltzmann    0 \
+-surface_accessibility        0 \
+-gb_surface_gamma  0.0072 \
+-generalized_born	  1 \
+-gb_surface_area     1 \
+-namd_executable E:/workdir/MolAICal/method/mmgbsa_v1/mmpbsa/namd2/namd2.exe
+quit
