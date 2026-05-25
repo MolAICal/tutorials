@@ -10,6 +10,10 @@ molaical.exe -call run -c ldock -i lightdock3.py setup.json 100 -s fastdfire -c 
 # 3. Generate models, Clustering, Rank, and filter
 molaical.exe -call run -c sfile -i lrank.sh 1::=$molargs1 2::=$molargs2 3::=$molargs4 4::=$molargs5 5::=$molargs6 6::=$molargs3
 
+# 3. Generate models, Clustering, Rank, and filter. Default debug mode is 1 which does not delete the temporary files. 
+# Setting 16::=0 will delete the temporary files if users make sure progress is corrected
+# molaical.exe -call run -c sfile -i lrank.sh 1::=$molargs1 2::=$molargs2 3::=$molargs4 4::=$molargs5 5::=$molargs6 6::=$molargs3 16::=0
+
 # 4. Get the top candidate from the above results
 molaical.exe -call run -c sfile -i mrank.py -ft 1
 
